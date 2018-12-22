@@ -1,16 +1,20 @@
 @charset "UTF-8";
 
 body {
+    position: relative;
+    top:60px;
     background: #36454f;
     color: #fff;
 }
 
 /* Navbar */
 
-header h1 {
+header h1 {   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding-left: 10px;
-    padding-top: 70px;
+    margin-left: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    margin-bottom: 20px;
 }
 
 #navbar {
