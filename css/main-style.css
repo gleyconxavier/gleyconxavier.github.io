@@ -10,25 +10,26 @@ body {
 /* Some tricks */
 
 @keyframes changemoves {
-    0%   {background-color:#55ce55; left:0px; top:0px;}
-    30%  {background-color:yellow; left:1000px; top:240px;}
-    50%  {background-color:blue; left:600px; top:240px;}
-    70%  {background-color:red; left:200px; top:240px;}
-    100% {background-color:#55ce55; left:0px; top:0px;}
+    0%   {background-color:#55ce55; left:5%; top:0%;}
+    30%  {background-color:yellow; left:70%; top:215%;}
+    50%  {background-color:blue; left:45%; top:215%;}
+    70%  {background-color:red; left:20%; top:215%;}
+    100% {background-color:#55ce55; left:0%; top:0%;}
   }
 
 @keyframes showme {
-    0%   {background-color:#55ce55; left:1800px; top:0px;}
-    35%   {background-color:red; left:800px; top:0px;}
-    55%   {background-color:yellow; left:500px; top:0px;}
-    70%   {background-color:yellow; left:150px; top:0px;}
-    100% {background-color:#55ce55; left:0px; top:0px;}
+    0%   {background-color:#55ce55; left:120%; top:0%;}
+    35%   {background-color:red; left:70%; top:0%;}
+    55%   {background-color:yellow; left:40%; top:0%;}
+    70%   {background-color:yellow; left:15%; top:0%;}
+    100% {background-color:#55ce55; left:0%; top:0%;}
   }
 
 /* Navbar */
 
 header h1 {   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
     margin-left: 0px;
     padding: 10px 70px 0px 30px;
     margin-bottom: 150px;
@@ -100,7 +101,7 @@ header h1 {
 
 .area h1 {
     position: relative;
-    font-size: 3em;
+    font-size: 2.7em;
     -webkit-animation-name: showme; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: showme;
