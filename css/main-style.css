@@ -11,28 +11,18 @@ body {
 
 @keyframes changemoves {
     0%   {background-color:#55ce55; left:0px; top:0px;}
-    25%  {background-color:yellow; left:1000px; top:0px;}
-    50%  {background-color:blue; left:800px; top:140px;}
-    75%  {background-color:red; left:200px; top:140px;}
+    30%  {background-color:yellow; left:1000px; top:240px;}
+    50%  {background-color:blue; left:600px; top:240px;}
+    70%  {background-color:red; left:200px; top:240px;}
     100% {background-color:#55ce55; left:0px; top:0px;}
   }
 
 @keyframes showme {
     0%   {background-color:#55ce55; left:1800px; top:0px;}
-    25%   {background-color:red; left:1000px; top:0px;}
-    50%   {background-color:yellow; left:400px; top:0px;}
+    35%   {background-color:red; left:800px; top:0px;}
+    55%   {background-color:yellow; left:500px; top:0px;}
+    70%   {background-color:yellow; left:150px; top:0px;}
     100% {background-color:#55ce55; left:0px; top:0px;}
-    -webkit-animation-fill-mode:both;
-    -moz-animation-fill-mode:both;
-    -ms-animation-fill-mode:both;
-    -o-animation-fill-mode:both;
-    animation-fill-mode:both;
-    -webkit-animation-duration:1s;
-    -moz-animation-duration:1s;
-    -ms-animation-duration:1s;
-    -o-animation-duration:1s;
-    animation-duration:1s;
-    opacity:0;
   }
 
 /* Navbar */
@@ -51,6 +41,7 @@ header h1 {
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: changemoves;
     animation-duration: 4s;
+    animation-delay: -0s;
       
 }
 
