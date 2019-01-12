@@ -3,24 +3,41 @@
 body {
     position: relative;
     top:60px;
-    background: #36454f;
+    background: #4d4a4a;
     color: #fff;
 }
+
+@keyframes changemoves {
+    0%   {background-color:#55ce55; left:0px; top:0px;}
+    25%  {background-color:yellow; left:1000px; top:0px;}
+    50%  {background-color:blue; left:800px; top:140px;}
+    75%  {background-color:red; left:200px; top:140px;}
+    100% {background-color:#55ce55; left:0px; top:0px;}
+  }
 
 /* Navbar */
 
 header h1 {   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 10px;
-    padding: 10px;
-    padding-left: 40px;
-    margin-bottom: 20px;
+    margin-left: 0px;
+    padding: 10px 70px 0px 30px;
+    margin-bottom: 150px;
+    width: 100px;
+    height: 100px;
+    background-color:#55ce55;
+    border-radius: 2em;
+    position: relative;
+    -webkit-animation-name: changemoves; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: changemoves;
+    animation-duration: 4s;
+      
 }
 
 #navbar {
     overflow: hidden;
     position: fixed;
-    background: grey;
+    background: #55ce55;
     top: 0;
     width: 100%;
     z-index: 9;
@@ -28,7 +45,9 @@ header h1 {
 
 #navbar ul {
     position: relative;
-    left: 40%;
+    display: inline-block;
+    padding: 0.1%;
+    margin-left: 5%;
     list-style: None;
     width: 100%;    
 }
@@ -37,7 +56,16 @@ header h1 {
     color: white;
     display: inline-block;
     padding: 10px;
+    border-radius: 1em;
+    transition: background 0.3s, color 1s;
 }
+
+#navbar ul li:hover {
+    background: black;
+    color: #00ff00;
+}
+
+#navbar
 
 /* main */
 
@@ -55,6 +83,11 @@ header h1 {
 
 .area {
     padding-bottom: 40%;
+    margin-left: 10%;
+}
+
+.area h1 {
+    font-size: 3em;
 }
 
 /* album photos */
