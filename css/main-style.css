@@ -10,17 +10,71 @@ body {
 /* Some tricks */
 
 @keyframes changemoves {
-    0%   {background-color:#55ce55; left:5%; top:0%;}
-    30%  {background-color:yellow; left:70%; top:215%;}
-    50%  {background-color:blue; left:45%; top:215%;}
-    70%  {background-color:red; left:20%; top:215%;}
+    0%   {background-color:#55ce55; left:5%; top:0em;}
+    30%  {background-color:red; left:72%; top: 7.4em;}
+    50%  {background-color:orangered; left:45%; top:7.4em;}
+    70%  {background-color:yellow; left:20%; top:7.4em;}
+    100% {background-color:#55ce55; left:0%; top:0em;}
+  }
+
+@-webkit-keyframes changemoves {
+    0%   {background-color:#55ce55; left:5%; top:0em;}
+    30%  {background-color:red; left:72%; top: 7.4em;}
+    50%  {background-color:orangered; left:45%; top:7.4em;}
+    70%  {background-color:yellow; left:20%; top:7.4em;}
+    100% {background-color:#55ce55; left:0%; top:0em;}
+  }
+
+
+@-moz-keyframes changemoves {
+    0%   {background-color:#55ce55; left:5%; top:0em;}
+    30%  {background-color:red; left:72%; top: 7.4em;}
+    50%  {background-color:orangered; left:45%; top:7.4em;}
+    70%  {background-color:yellow; left:20%; top:7.4em;}
+    100% {background-color:#55ce55; left:0%; top:0em;}
+  }
+
+@-o-keyframes changemoves {
+    0%   {background-color:#55ce55; left:5%; top:0em;}
+    30%  {background-color:red; left:72%; top: 7.4em;}
+    50%  {background-color:orangered; left:45%; top:7.4em;}
+    70%  {background-color:yellow; left:20%; top:7.4em;}
+    100% {background-color:#55ce55; left:0%; top:0em;}
+  }
+
+/* Trick 2 */
+
+@-webkit-keyframes showme {
+    0%   {background-color:#55ce55; left:120%; top:0%;}
+    35%   {background-color:red; left:70%; top:0%;}
+    55%   {background-color:orangered; left:40%; top:0%;}
+    70%   {background-color:yellow; left:15%; top:0%;}
     100% {background-color:#55ce55; left:0%; top:0%;}
   }
+
+
+@-moz-keyframes showme {
+    0%   {background-color:#55ce55; left:120%; top:0%;}
+    35%   {background-color:red; left:70%; top:0%;}
+    55%   {background-color:orangered; left:40%; top:0%;}
+    70%   {background-color:yellow; left:15%; top:0%;}
+    100% {background-color:#55ce55; left:0%; top:0%;}
+  }
+
+
+@-o-keyframes showme {
+    0%   {background-color:#55ce55; left:120%; top:0%;}
+    35%   {background-color:red; left:70%; top:0%;}
+    55%   {background-color:orangered; left:40%; top:0%;}
+    70%   {background-color:yellow; left:15%; top:0%;}
+    100% {background-color:#55ce55; left:0%; top:0%;}
+  }
+
 
 @keyframes showme {
     0%   {background-color:#55ce55; left:120%; top:0%;}
     35%   {background-color:red; left:70%; top:0%;}
-    55%   {background-color:yellow; left:40%; top:0%;}
+    55%   {background-color:orangered; left:40%; top:0%;}
     70%   {background-color:yellow; left:15%; top:0%;}
     100% {background-color:#55ce55; left:0%; top:0%;}
   }
@@ -29,6 +83,7 @@ body {
 
 header h1 {   
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
     font-size: 2em;
     margin-left: 0px;
     padding: 10px 70px 0px 30px;
@@ -37,13 +92,15 @@ header h1 {
     height: 100px;
     background-color:#55ce55;
     border-radius: 2em;
-    position: relative;
-    -webkit-animation-name: changemoves; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: changemoves;
     animation-duration: 4s;
-    animation-delay: -0s;
-      
+    -moz-animation-name: changemoves; /* Safari 4.0 - 8.0 */
+    -moz-animation-duration: 4s; 
+    -o-animation-name: changemoves; /* Safari 4.0 - 8.0 */
+    -o-animation-duration: 4s; 
+    -webkit-animation-name: changemoves; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+
 }
 
 #navbar {
