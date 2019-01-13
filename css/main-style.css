@@ -161,9 +161,14 @@ header h1 {
     padding-left: 10px;
 }
 
-.main img{
-    width: 43.54em;
-    height: 18em;
+.main #relax {
+    background-image: url('../images/relax.jpeg');
+    background-repeat: no-repeat;
+    background-size: 61vw 50vw;
+    background-position: center;
+    height: 30vw;
+    padding-left: 0vw;
+    margin-left: -10vw;
 }
 
 .area {
@@ -181,7 +186,7 @@ header h1 {
     animation-duration: 4s;
     padding-left: 1em;
     background-color:#55ce55;
-    width: 15.1em;
+    width: 58vw;
 }
 
 /* album photos */
