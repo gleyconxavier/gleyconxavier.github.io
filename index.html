@@ -2,71 +2,129 @@
 <html lang="pt-br">
 	
 <head>
-  <title>Gleycon Xavier - Portfolio</title>
+  <title>Gleycon Xavier | Portfolio</title>
   <meta charset="UTF-8"/>
-  <meta name="description" content="Portfolio">
-  <meta name="keywords" content="HTML,CSS,JavaScript,Web,Development, Gleycon Xavier">
+  <meta name="description" content="Portfolio WebDevelopment Freelancer">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Web, Development, Gleycon Xavier">
   <meta name="author" content="Gleycon Xavier">
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/main-style.css">
+  <link rel="stylesheet" href="css/all.css">
+  <script src="js/typed.js"></script>
+  <script src="js/tricks.js"></script>
 </head>
 
 <body>
+
   <header>
-    <h1>Gleycon Xavier</h1>
-    <div id="banner"></div>
-    <div id="navbar">
-      <ul>
-        <a href="#start"><li>Início</li></a>
-        <a href="#projects"><li>Projetos</li></a>
-        <a href="#about"><li>Sobre</li></a>
-      </ul>
+    <div id="logo">
+      <img alt="Logotipo" src="images/logo.png">
+    </div>
+    <div id="banner">
+        <div id="typed-strings">
+            <p>Bem vindo ao meu <strong>Portfolio</strong>.</p>
+            <p>Você sabia que<em> 95% dos usuários <br> acessam a internet por dispositivos móveis?</em></p>
+            <p>Você sabia que<em> a chave <br> para estes casos é a responsividade?</em></p>
+            <p><strong>Responsividade</strong></p>
+            <p><strong>Usabilidade</strong></p>
+            <p><strong>Comunicabilidade</strong></p>
+            <p><strong>Satisfação</strong></p>
+        </div>
+        <div id="typed-box">
+          <span id="typed"></span>
+        </div>
     </div>
   </header>
 
-  <article class="main">
+  
+  <nav id="navbar">
+      <ul>
+        <a href="#start" onclick="aniTitle(0)"></i><li><i class="fas fa-home"></i> Início</li></a>
+        <a href="#projects"  onclick="aniTitle(1)"><li><i class="fas fa-project-diagram"></i> Projetos</li></a>
+        <a href="#about"  onclick="aniTitle(2)"><li><i class="fas fa-address-card"></i> Sobre</li></a>
+      </ul>
+    </nav>
+    <button onclick="showNav()" id="changer" class="dropbtn fa fa-bars"></button>
+    
+  <section class="main">
 
-    <section class="area" id="start">
-       <h1>Bem vindo!</h1>
+    <article class="area" id="start">
+       <h1 class='animated title-ani'>Bem vindo!</h1>
        <h3>Sinta-se à vontade.</h3>
        <p>
-         Buscando sempre o aperfeiçoamento, optimização e os melhores resultados.<br>
-         Em um mundo de constante evolução!
+         Buscando sempre o aperfeiçoamento, otimização e os melhores resultados.
        </p>
+       <p>Em um mundo de constante e imensa evolução!</p>
        <div id="relax"></div>
-    </section>
+    </article>
 
-    <section class="area" id="projects">
-      <h1 class="title-area">Projetos</h1>
+    <article class="area" id="projects">
+      <h1 class="animated title-ani">Projetos</h1>
       <p>Em processo de atualização.</p>
       <ul id="album-photos">
-        <a href='https://gleyconxavier.github.io/glass-project/' target='_blank'><li id="photo01"><span>Google glass - Criado durante curso.</span></li></a>
+      <li id="photo01"><span>Será íncluido em breve.</span></li>
 	     <li id="photo02"><span>Será íncluido em breve.</span></li>
 	     <li id="photo03"><span>Será íncluido em breve.</span></li>
 	     <li id="photo04"><span>Será íncluido em breve.</span></li>
 	     <li id="photo05"><span>Será íncluido em breve.</span></li>
 	      <li id="photo06"><span>Será íncluido em breve.</span></li>
       </ul>
+    </article>
+
+    
+      <article class="area" id="about">
+        <h1 class="animated title-ani">Sobre</h1>
+        <div id="avatar"></div>
+        <div id="about-text">
+          <h2>"Um entusiasta da computação e suas variações tecnológicas."</h4>
+          <p>
+          Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong> e desenvolvedor web.
+          </p>
+          <p>Desde a adoslecência apaixonado por computação, desenvolvimento de softwares e coisas
+            ligadas a tecnológia da informação.</p>
+          <p>Viciado em café e computadores poderosos.</p>
+        </div>
+
+        <ul id="skills">
+          <h3> Habilidades:</h3>
+          <li><i class="fab fa-html5"></i> Html</li>
+          <li><i class="fab fa-css3-alt"></i> CSS</li>
+          <li><i class="fab fa-js-square"></i> JavaScript</li>
+          <li><i class="fab fa-php"></i> PHP</li>
+          <li><i class="fab fa-node"></i> Node.js</li>
+          <li><i class="fab fa-wordpress"></i> Wordpress</li>
+          <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+          <li><i class="fas fa-database"></i> Sql</li>
+        </ul>
+      
+        <ul id="contato">
+            <h3> Contato:</h3>
+            <li>
+              <a href='https://www.facebook.com/gleyconwebdev' target="_vblank"><i class="fab fa-facebook-square"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="mailto:gleyconxavier@hotmail.com?Subject=Olá, tudo bem?" target="_top"><i class="fas fa-envelope-square"></i> E-mail</a>
+            </li>
+        </ul>
+
+      </article>
+
+      <footer id="footer">
+          <p>Feito com <i class="far fa-heart"></i> <span>| Gleycon Xavier</span></p>
+        </footer>
     </section>
 
-    <div id="about">
-      <section class="area">
-        <h1 class="title-area">Sobre</h1>
-        <div id="avatar"></div>
-        <p>
-          "Um entusiasta da computação e suas variações tecnológicas."<br/>
-        <p>
-        <br/>
-        <h3> Contato:</h3>
-        <p>
-            <a href='https://www.facebook.com/gleyconwebdev' target="_vblank">Facebook</a>
-            <a href="mailto:gleyconxavier@hotmail.com?Subject=Olá, tudo bem?" target="_top">E-mail</a>
-        </p>
-      </section>
-    </div>
-  </article>
+  <script>
+          
+          var typed = new Typed('#typed', {
+          stringsElement: '#typed-strings',
+          backSpeed: 30,
+          typeSpeed: 40,
+          loop: true,
+          loopCount: Infinity
+        });
 
-  <footer class="footer">
-  </footer>
+  </script>
 </body>
 </html>
