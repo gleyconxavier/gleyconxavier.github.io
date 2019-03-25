@@ -415,6 +415,13 @@ ul#album-photos li {
 
 /* querys */
 
+@media (min-width: 1200px) {
+	
+    .dropbtn#changer {
+        display: none;
+    }
+}
+
 @media (max-width: 1200px) {
    
    header img {
