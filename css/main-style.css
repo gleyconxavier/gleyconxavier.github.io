@@ -173,7 +173,7 @@ header img {
     background-position: center;
     height: 34.5em;
     padding: 0px;
-    margin: 0px;
+    margin-top: -19px;
 }
 
 #typed {
@@ -433,15 +433,8 @@ ul#album-photos li {
 
 /* querys */
 
-@media (min-width: 1200px) {
-	
-    .dropbtn#changer {
-        display: none;
-    }
-}
-
 @media (max-width: 1200px) {
-   
+       
    header img {
        animation: none;
    }
@@ -505,6 +498,12 @@ ul#album-photos li {
        margin-bottom: 25%;
    }
 
+}
+
+@media (min-width: 768px) {
+    .dropbtn#changer {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
