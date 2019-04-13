@@ -257,21 +257,25 @@ header img {
 
 ul#album-photos {
 	width: 60vw;
-    overflow: hidden;
-    list-style: none;
-    padding: 20px;
-    margin: 0 auto;
+        overflow: hidden;
+        list-style: none;
+        padding: 20px;
+        margin: 0 auto;
 }
 
 ul#album-photos li {
-    float: left;
+    	float: left;
 	width: 16vw;
 	height: 16vw;
-    margin: 2%;
+	margin: 2%;
 	border: 5px solid #FA6900;
 	background-color: #fff;
 	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
 	transition: 0.3s;
+	background-size: 400px auto;
+        background-position: center top;
+        background-repeat: no-repeat;
+
 }
 
 /* Projects */
@@ -287,9 +291,9 @@ ul#album-photos li {
 	color: #fff;
 	text-shadow: 1px 1px 1px #000;
 	background-color: rgba(0,0,0,.3);
-	font-size: 2vw;
+	font-size:1.8vw;
 	line-height: 5vw;
-	padding: 2.5px;
+	padding: 1px;
 }
 
 #album-photos li:hover span {
@@ -303,6 +307,20 @@ ul#album-photos li {
 
 #album-photos li:hover {
 	transform: scale(1.3);
+	background-position: 50% 50%;
+	background-size: 80% 100%;
+}
+
+#photo05 {
+    background-image: url("../images/projetos/oinformativo.png");
+}
+
+#photo05:hover {
+    
+}
+
+#photo06 {
+    background-image: url("../images/projetos/bonna-modas.png");
 }
 
 /* About */
@@ -520,6 +538,12 @@ ul#album-photos li {
 }
 
 @media(max-width: 600px) {
+    
+
+    html {
+        padding: 0;
+	    margin: 0;
+    }
 
     #logo {
         display: none;
@@ -540,6 +564,10 @@ ul#album-photos li {
         display: block !important;
     }
 
+    .show ul {
+        font-size: 4vw;
+    }
+
     .dropbtn {
         top: 0vh;
         left: 0vw;
@@ -547,7 +575,7 @@ ul#album-photos li {
         display: block;
         background-color: #A7DBD8CC;
         color: white;
-        padding: 8vw;
+        padding: 7vw;
         font-size: 16px;
         border: none;
         cursor: pointer;
@@ -567,23 +595,19 @@ ul#album-photos li {
     /* projects */
 
     ul#album-photos {
-        padding: 0;
-        margin: 0 0;
-        width: 300px;
-        
-    }
-
-    #album-photos li{
-       
-       display: inline;
-       clear: both;
+        padding: 10px 0px;
+        margin: 40px auto;
+        width: 100%;
+        display: inline-block;
+        text-align: center;
     }
 
     article#projects.area li {
-       height: 120px;
+       height: 80px;
        width: 50%;
-       padding: 0 5px;
-       margin: 15px 50px;
+       padding: 10px 10px;
+       clear: both;
+       margin-left: 20%;
     }
 
     .main h1 {
@@ -616,7 +640,9 @@ ul#album-photos li {
 
     #contato{
         font-size: 8vw;
-        padding-bottom: 20vw;
+        width: 340px;
+        padding-bottom: 20px;
+        padding-left: 0px;
     }
 
     #footer {
