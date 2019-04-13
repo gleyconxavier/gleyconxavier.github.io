@@ -273,8 +273,8 @@ ul#album-photos li {
 	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
 	transition: 0.3s;
 	background-size: 400px auto;
-        background-position: center top;
-        background-repeat: no-repeat;
+    background-position: center top;
+    background-repeat: no-repeat;
 
 }
 
@@ -500,10 +500,12 @@ ul#album-photos li {
 
 }
 
+
 @media (min-width: 768px) {
     .dropbtn#changer {
         display: none;
     }
+
 }
 
 @media (max-width: 768px) {
@@ -532,6 +534,10 @@ ul#album-photos li {
     
     #about ul {
         margin: 0% auto;   
+    }
+
+    #contato {
+        width: 100%;
     }
 
 }
@@ -614,7 +620,7 @@ ul#album-photos li {
     }
 
     article#about.area {
-        padding-bottom: 300px;
+        padding-bottom: 72vw;;
     }
 
     #about h2, #about p {
@@ -649,4 +655,10 @@ ul#album-photos li {
         height: 0;
     }
 
+}
+
+@media (max-width: 396px) {
+    article.area#about {
+        padding-bottom: 90vw;
+    }
 }
