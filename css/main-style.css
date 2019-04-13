@@ -180,6 +180,7 @@ header img {
     color: #FA6900;
     font-size: 4vw;
     font-family: "Fjalla One", sans-serif;
+    text-shadow: 2px 2px #000;
 }
 
 #typed strong, em {
@@ -331,7 +332,7 @@ ul#album-photos li {
 }
 
 #about #avatar{
-    background: url('../images/avatar.jpg') no-repeat;
+    background: url('../images/avatar-blankbg.png') no-repeat;
     width: 20vw;
     height: 20vw;
     float: left;
