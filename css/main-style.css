@@ -281,6 +281,19 @@ ul#album-photos li {
 
 /* Projects */
 
+.container {
+    text-align: center;
+}
+
+.container iframe {
+    margin: 0 auto;
+    border: 5px solid #FA6900;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 100%;
+}
+
 #album-photos li#photo01 {
 	background-position: 50% 50%;
 	background-size: 25.000em 25.000em;

@@ -1,7 +1,5 @@
 // Animation Reset
 
-alert("Site em construção.")
-
 function aniTitle(who) {
     const status = document.getElementsByClassName('animated')
 
