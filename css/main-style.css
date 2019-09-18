@@ -121,13 +121,13 @@ header img {
     height: auto;
     margin: auto;
     animation-name: changemoves;
-    animation-duration: 3s;
+    animation-duration: 1.8s;
     -moz-animation-name: changemoves; /* Safari 4.0 - 8.0 */
-    -moz-animation-duration: 3s; 
+    -moz-animation-duration: 1.8s; 
     -o-animation-name: changemoves; /* Safari 4.0 - 8.0 */
-    -o-animation-duration: 3s; 
+    -o-animation-duration: 1.8s; 
     -webkit-animation-name: changemoves; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1.8s; /* Safari 4.0 - 8.0 */
     z-index: 9;
 
 }
@@ -249,9 +249,9 @@ header img {
 
 .title-ani {
     -webkit-animation-name: showme; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1.8s; /* Safari 4.0 - 8.0 */
     animation-name: showme;
-    animation-duration: 3s;
+    animation-duration: 1.8s;
 }
 
 /* Album photos */
@@ -332,11 +332,11 @@ ul#album-photos li {
 }
 
 #photo05 {
-    background-image: url("../images/projetos/oinformativo.png");
+    background-image: url("../images/projetos/oinformativo.webp");
 }
 
 #photo06 {
-    background-image: url("../images/projetos/bonna-modas.png");
+    background-image: url("../images/projetos/bonna-modas.webp");
 }
 
 /* About */
