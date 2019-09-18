@@ -166,7 +166,7 @@ header img {
 }
 
 #banner {
-    background-image: url('../images/planning03.jpg');
+    background-image: url('../images/planning03.webp');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -214,7 +214,7 @@ header img {
 }
 
 #relax {
-    background-image: url('../images/planning02.jpg');
+    background-image: url('../images/planning02.webp');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -347,7 +347,7 @@ ul#album-photos li {
 }
 
 #about #avatar{
-    background: url('../images/avatar-blankbg.jpg') no-repeat;
+    background: url('../images/avatar-blankbg.webp') no-repeat;
     width: 20vw;
     height: 20vw;
     float: left;
