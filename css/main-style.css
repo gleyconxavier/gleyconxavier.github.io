@@ -15,75 +15,40 @@
     src: url("../assets/fonts/Fjalla_One/FjallaOne-Regular.ttf");
 }
 
-/* Some tricks */
-
-@keyframes changemoves {
-    0%   {left:5%; top:0em;}
-    30%  {left:74vw; top: 63vh;}
-    50%  {left:54vw; top:63vh;}
-    70%  {left:24vw; top:63vh;}
-    100% {left:0vw; top:0vh;}
-  }
-
-@-webkit-keyframes changemoves {
-    0%   {left:5%; top:0em;}
-    30%  {left:74vw; top: 63vh;}
-    50%  {left:54vw; top:63vh;}
-    70%  {left:24vw; top:63vh;}
-    100% {left:0vw; top:0vh;}
-  }
-
-
-@-moz-keyframes changemoves {
-    0%   {left:5%; top:0em;}
-    30%  {left:74vw; top: 63vh;}
-    50%  {left:54vw; top:63vh;}
-    70%  {left:24vw; top:63vh;}
-    100% {left:0vw; top:0vh;}
-  }
-
-@-o-keyframes changemoves {
-    0%   {left:5%; top:0em;}
-    30%  {left:74vw; top: 63vh;}
-    50%  {left:54vw; top:63vh;}
-    70%  {left:24vw; top:63vh;}
-    100% {left:0vw; top:0vh;}
-  }
-
-/* Trick 2 */
+/* Titles Animation */
 
 @-webkit-keyframes showme {
     0%    {background-color:#55ce55; left:120%; top:0%;}
-    35%   {background-color:red; left:70%; top:0%;}
-    55%   {background-color:orangered; left:40%; top:0%;}
-    70%   {background-color:yellow; left:15%; top:0%;}
+    35%   {background-color:red;}
+    55%   {background-color:orangered;}
+    70%   {background-color:yellow;}
     100%  {background-color:#F38630; left:-0.3em; top:0%;}
   }
 
 
 @-moz-keyframes showme {
     0%    {background-color:#55ce55; left:120%; top:0%;}
-    35%   {background-color:red; left:70%; top:0%;}
-    55%   {background-color:orangered; left:40%; top:0%;}
-    70%   {background-color:yellow; left:15%; top:0%;}
+    35%   {background-color:red;}
+    55%   {background-color:orangered;}
+    70%   {background-color:yellow;}
     100%  {background-color:#F38630; left:-0.3em; top:0%;}
   }
 
 
 @-o-keyframes showme {
     0%    {background-color:#55ce55; left:120%; top:0%;}
-    35%   {background-color:red; left:70%; top:0%;}
-    55%   {background-color:orangered; left:40%; top:0%;}
-    70%   {background-color:yellow; left:15%; top:0%;}
+    35%   {background-color:red;}
+    55%   {background-color:orangered;}
+    70%   {background-color:yellow;}
     100%  {background-color:#F38630; left:-0.3em; top:0%;}
   }
 
 
 @keyframes showme {
     0%    {background-color:#55ce55; left:120%; top:0%;}
-    35%   {background-color:red; left:70%; top:0%;}
-    55%   {background-color:orangered; left:40%; top:0%;}
-    70%   {background-color:yellow; left:15%; top:0%;}
+    35%   {background-color:red;}
+    55%   {background-color:orangered;}
+    70%   {background-color:yellow;}
     100%  {background-color:#F38630; left:-0.3em; top:0%;}
   }
 
@@ -120,14 +85,6 @@ header img {
     max-width: 100%;
     height: auto;
     margin: auto;
-    animation-name: changemoves;
-    animation-duration: 1.8s;
-    -moz-animation-name: changemoves; /* Safari 4.0 - 8.0 */
-    -moz-animation-duration: 1.8s; 
-    -o-animation-name: changemoves; /* Safari 4.0 - 8.0 */
-    -o-animation-duration: 1.8s; 
-    -webkit-animation-name: changemoves; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1.8s; /* Safari 4.0 - 8.0 */
     z-index: 9;
 
 }
@@ -249,9 +206,9 @@ header img {
 
 .title-ani {
     -webkit-animation-name: showme; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1.8s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
     animation-name: showme;
-    animation-duration: 1.8s;
+    animation-duration: 1s;
 }
 
 /* Album photos */
