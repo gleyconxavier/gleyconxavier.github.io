@@ -7,12 +7,6 @@
 }
 
 @font-face {
-    font-family: "Spectral";
-    font-display: swap;
-    src: url("../assets/fonts/Spectral/Spectral-Regular.ttf");
-}
-
-@font-face {
     font-family: "Fjalla One";
     font-display: swap;
     src: url("../assets/fonts/Fjalla_One/FjallaOne-Regular.ttf");
@@ -72,7 +66,7 @@ body p, h3 {
 }
 
 body p {
-    font-family: "Spectral", sans-serif;
+    font-family: "Rubik", sans-serif;
 }
 
 /* Navbar */
@@ -326,7 +320,7 @@ ul#album-photos li {
     margin-left: 2vw;
     text-decoration: none;
     color: #A7DBD8;
-    font-family: "Spectral", sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 3vw;
     transition: 0.5s;
 }
@@ -383,7 +377,7 @@ ul#album-photos li {
 }
 
 #footer p {
-    font-family: "Spectral", sans-serif;
+    font-family: "Rubik", sans-serif;
     font-style: italic;
     color: #000;
 }
