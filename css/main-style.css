@@ -111,17 +111,21 @@ header img {
     text-align: center;
 }
 
-#navbar ul li {
+#navbar a {
+    text-decoration: none;
     color: rgb(247, 247, 247);
+    transition: 0.3s, color 1s;
+}
+
+#navbar ul li {
     display: inline-block;
     padding: 10px 10px;
     font-family: "Fjalla One";
     font-size: 2em;
-    transition: 0.3s, color 1s;
     margin-left: 20px;
 }
 
-#navbar ul li:hover {
+#navbar ul li a:hover {
     color: #F38630;
 }
 
@@ -477,7 +481,7 @@ ul#album-photos li {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 601px) {
     .dropbtn#changer {
         display: none;
     }
