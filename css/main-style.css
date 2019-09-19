@@ -2,16 +2,19 @@
 
 @font-face {
     font-family: "Rubik";
+    font-display: auto;
     src: url("../assets/fonts/Rubik/Rubik-Regular.ttf");
 }
 
 @font-face {
     font-family: "Spectral";
+    font-display: auto;
     src: url("../assets/fonts/Spectral/Spectral-Regular.ttf");
 }
 
 @font-face {
     font-family: "Fjalla One";
+    font-display: auto;
     src: url("../assets/fonts/Fjalla_One/FjallaOne-Regular.ttf");
 }
 
