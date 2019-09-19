@@ -254,7 +254,7 @@ ul#album-photos li {
     padding-top: 30px; height: 0; overflow: hidden;
 }
 
-.container iframe {
+.container embed {
 
     position: absolute;
     border: 2px solid #FA6900;
