@@ -213,9 +213,9 @@ header img {
 
 .title-ani {
     -webkit-animation-name: showme; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .6s; /* Safari 4.0 - 8.0 */
     animation-name: showme;
-    animation-duration: 1s;
+    animation-duration: .6s;
 }
 
 /* Album photos */
