@@ -245,25 +245,6 @@ ul#album-photos li {
 
 /* Projects */
 
-.container {
-    margin: 0 auto;
-    width: 70%;
-    max-width: 100%;
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px; height: 0; overflow: hidden;
-}
-
-.container embed {
-
-    position: absolute;
-    border: 2px solid #FA6900;
-    top: 0;
-    left: 0;
-    width: 94%;
-    height: 94%;
-}
-
 #album-photos li#photo01 {
 	background-position: 50% 50%;
 	background-size: 25.000em 25.000em;
