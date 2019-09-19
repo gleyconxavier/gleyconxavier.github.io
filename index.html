@@ -132,12 +132,17 @@
   <script src="js/tricks.js"></script>
   <script src="js/typed.js"></script>
   <script>
-          
-          var typed = new Typed('#typed', {
+    function updateScreen(time) {
+
+      var typed = new Typed('#typed', {
           stringsElement: '#typed-strings',
           backSpeed: 5,
           typeSpeed: 8,
         });
+    
+    }
+
+    requestAnimationFrame(updateScreen);
 
   </script>
 
