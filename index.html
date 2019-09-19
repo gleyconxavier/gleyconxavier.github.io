@@ -136,15 +136,13 @@
   <script src="js/tricks.js"></script>
   <script src="js/typed.js"></script>
   <script>
-    function updateScreen(time) {
+
+    document.addEventListener('DOMContentLoaded', function(){
 
       var typed = new Typed('#typed', {
           stringsElement: '#typed-strings',
         });
-    
-    }
-
-    requestAnimationFrame(updateScreen);
+      })
 
   </script>
 
