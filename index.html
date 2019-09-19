@@ -11,6 +11,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/main-style.css">
   <link rel="stylesheet" href="css/all.css">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
 </head>
 
 <body>
@@ -19,7 +20,9 @@
     <div id="logo">
       <img alt="Logotipo" src="images/logo.png">
     </div>
+
     <div id="banner">
+
         <div id="typed-strings">
             <p>Bem vindo ao meu <strong>Portfólio</strong>.</p>
             <p>Você sabia que<em> 95% dos usuários <br> acessam a internet por dispositivos móveis?</em></p>
@@ -30,9 +33,11 @@
             <p><strong>Satisfação</strong></p>
             <p><strong>São as palavras certas para uma solução de sucesso.</strong></p>
         </div>
+
         <div id="typed-box">
           <span id="typed"></span>
         </div>
+
     </div>
   </header>
 
@@ -130,14 +135,11 @@
     </section>
 
   <script src="js/tricks.js"></script>
-  <script src="js/typed.js"></script>
   <script>
     function updateScreen(time) {
 
       var typed = new Typed('#typed', {
           stringsElement: '#typed-strings',
-          backSpeed: 5,
-          typeSpeed: 8,
         });
     
     }
