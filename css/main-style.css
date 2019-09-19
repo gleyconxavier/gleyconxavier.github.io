@@ -2,19 +2,19 @@
 
 @font-face {
     font-family: "Rubik";
-    font-display: block;
+    font-display: swap;
     src: url("../assets/fonts/Rubik/Rubik-Regular.ttf");
 }
 
 @font-face {
     font-family: "Spectral";
-    font-display: block;
+    font-display: swap;
     src: url("../assets/fonts/Spectral/Spectral-Regular.ttf");
 }
 
 @font-face {
     font-family: "Fjalla One";
-    font-display: block;
+    font-display: swap;
     src: url("../assets/fonts/Fjalla_One/FjallaOne-Regular.ttf");
 }
 
@@ -68,7 +68,7 @@ body {
 
 body p, h3 {
     margin-left: 4vw;
-    font-family: "Rubik";
+    font-family: "Rubik", sans-serif;
 }
 
 body p {
@@ -120,7 +120,7 @@ header img {
 #navbar ul li {
     display: inline-block;
     padding: 10px 10px;
-    font-family: "Fjalla One";
+    font-family: "Fjalla One", sans-serif;
     font-size: 2em;
     margin-left: 20px;
 }
@@ -359,7 +359,7 @@ ul#album-photos li {
 }
 
 #about-text h2{
-    font-family: "Rubik";
+    font-family: "Rubik", sans-serif;
     color: #A7DBD8;
     font-style: italic;
 }
@@ -397,12 +397,12 @@ ul#album-photos li {
 #footer span {
     font-style: normal;
     color: #FFF;
-    font-family: "Rubik";
+    font-family: "Rubik", sans-serif;
     font-size: 1.2em;
 }
 
 #footer p {
-    font-family: "Spectral";
+    font-family: "Spectral", sans-serif;
     font-style: italic;
     color: #000;
 }
