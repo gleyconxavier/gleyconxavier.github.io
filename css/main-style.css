@@ -141,10 +141,13 @@ header img {
 }
 
 #typed {
+    position : absolute;
+    bottom : 0;
+    right: 33%;
+    font-size: 4em;
     color: #FA6900;
-    font-size: 4vw;
     font-family: "Fjalla One", sans-serif;
-    text-shadow: 2px 2px #000;
+    text-shadow: 3px 4px 4px #000;
 }
 
 #typed strong, em {
@@ -152,16 +155,10 @@ header img {
 }
 
 #typed-box {
-    width: 100%;
-    color: #FA6900;
     text-align: center;
-    float: left;
-}
-
-.typed-cursor {
-    font-size: 6em;
-    padding: 0;
-    margin: 0;
+    height: 50%;
+    position:relative;
+    width: 100%;
 }
 
 /* main */
@@ -409,10 +406,6 @@ ul#album-photos li {
        width: 100%;
    }
 
-   #banner #typed-box {
-       margin-top: 28vh;
-   }
-
    .area {
     padding-bottom: 75%;
 }
@@ -471,6 +464,10 @@ ul#album-photos li {
 
 @media (max-width: 768px) {
 
+    #typed {
+        font-size: 2em;
+    }
+
     .main {
         width: auto;
         margin: 0 2%;
@@ -479,10 +476,6 @@ ul#album-photos li {
     #banner {
         height: 92vh;
         width: 100%;
-    }
-
-    #typed-box span {
-        font-size: 3.5em;
     }
 
     .main p, #about-text p {
@@ -549,7 +542,6 @@ ul#album-photos li {
       }
 
     #typed-box {
-        font-size: 2vw;
         padding: 0vw;
         margin: 0;
     }
