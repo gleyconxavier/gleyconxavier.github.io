@@ -72,16 +72,21 @@ body p {
 /* Navbar */
 
 #logo {
-    width: 20%;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    max-width: 15%;
 }
 
 header img {  
     position: relative;
     float: left;
-    width: 60%;
+    width: 100%;
     max-width: 100%;
     height: auto;
     margin: auto;
+    border: 2px solid #fff;
+    border-radius: 8px;
     z-index: 9;
 
 }
@@ -529,18 +534,38 @@ ul#album-photos li {
     }
 
     .dropbtn {
-        top: 0vh;
-        left: 0vw;
+        top: 0;
+        left: 0;
         position: fixed;
         display: block;
         background-color: #A7DBD8CC;
         color: white;
         padding: 7vw;
-        font-size: 16px;
+        font-size: 18px;
         border: none;
-        cursor: pointer;
+        transform: rotate(90deg);
+        transition: transform .2s;
+        border-radius: 50%;
         z-index: 10;
       }
+
+    #navbar.show {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .turn {
+        transform: rotate(180deg);
+        border-radius: 0;
+    }
+
+    #navbar.show li {
+        display: block;
+        padding: 0;
+        margin: 1em auto;
+    }
 
     #typed-box {
         font-size: 2vw;

@@ -12,5 +12,5 @@ function aniTitle(who) {
 
 function showNav() {
     document.getElementById("navbar").classList.toggle("show");
-    document.getElementById("changer").classList.toggle("fa-times");
+    document.getElementById("changer").classList.toggle("turn");
   }
