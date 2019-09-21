@@ -285,10 +285,6 @@ ul#album-photos li {
 	background-size: 100% 100%;
 }
 
-#photo01 {
-    background-image: url("");
-}
-
 #photo02 {
     background-image: url("../images/projetos/orcamento-pessoal.webp");
 }
