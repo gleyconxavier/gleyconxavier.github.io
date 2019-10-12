@@ -86,7 +86,7 @@ header img {
     height: auto;
     margin: auto;
     border: 2px solid #fff;
-    border-radius: 8px;
+    border-radius: 10%;
     z-index: 9;
 
 }
@@ -164,7 +164,6 @@ header img {
 }
 
 /* main */
-
 
 .main {
     width: auto;
@@ -244,6 +243,20 @@ ul#album-photos li {
 
 /* Projects */
 
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
 ul#album-photos li {
     padding: 0;
     text-align: center;
@@ -291,6 +304,10 @@ ul#album-photos li {
 
 #photo02 {
     background-image: url("../images/projetos/orcamento-pessoal.webp");
+}
+
+#photo03 {
+    background-image: url("../images/projetos/mazza-pizarria-projeto.webp");
 }
 
 #photo05 {
@@ -376,7 +393,7 @@ ul#album-photos li {
     margin: 15px 12px;
 }
 #skills i {
-    font-size: 2.5vw;
+    font-size: 2.1em;
 }
 
 /* Footer */
@@ -622,9 +639,9 @@ ul#album-photos li {
     }
 
     article#projects.area li {
-       height: 80px;
+       height: 130px;
        width: 50%;
-       padding: 10px 10px;
+       padding: 0;
        clear: both;
        margin-left: 20%;
     }
@@ -650,7 +667,7 @@ ul#album-photos li {
     }
 
     #skills li {
-        font-size: 3vw;
+        font-size: 16px;
     }
 
     #about h3 {
@@ -658,10 +675,13 @@ ul#album-photos li {
     }
 
     #contato{
-        font-size: 8vw;
         width: 340px;
         padding-bottom: 20px;
         padding-left: 0px;
+    }
+
+    #contato a {
+        font-size: 18px;
     }
 
     #footer {
@@ -674,5 +694,9 @@ ul#album-photos li {
 @media (max-width: 396px) {
     article.area#about {
         padding-bottom: 90vw;
+    }
+
+    #album-photos li:hover span {
+        opacity: 0;
     }
 }
