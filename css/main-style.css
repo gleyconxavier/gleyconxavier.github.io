@@ -86,7 +86,7 @@ header img {
     height: auto;
     margin: auto;
     border: 2px solid #fff;
-    border-radius: 10%;
+    border-radius: 50%;
     z-index: 9;
 
 }
@@ -110,22 +110,25 @@ header img {
     text-align: center;
 }
 
-#navbar a {
-    text-decoration: none;
-    color: rgb(247, 247, 247);
-    transition: 0.3s, color 1s;
-}
-
 #navbar ul li {
     display: inline-block;
     padding: 10px 10px;
     font-family: "Fjalla One", sans-serif;
     font-size: 2em;
-    margin-left: 20px;
+    margin: 2px 2px 2px 20px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    border: 2px solid #69D2E7;
+    padding: 10px;
+    transition: 0.3s, border .2s;
 }
 
 #navbar ul li a:hover {
-    color: #F38630;
+    border: 2px solid rgb(252, 138, 51);
+    border-radius: 30px;
 }
 
 #banner {
@@ -211,9 +214,9 @@ header img {
 
 .title-ani {
     -webkit-animation-name: showme; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: .6s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
     animation-name: showme;
-    animation-duration: .6s;
+    animation-duration: 1s;
 }
 
 /* Album photos */
@@ -242,20 +245,6 @@ ul#album-photos li {
 }
 
 /* Projects */
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-}
 
 ul#album-photos li {
     padding: 0;
@@ -396,6 +385,10 @@ ul#album-photos li {
     font-size: 2.1em;
 }
 
+#contato {
+    margin-left: 2px;
+}
+
 /* Footer */
 
 #footer {
@@ -455,6 +448,10 @@ ul#album-photos li {
 
    #relax {
        height: 80vh;
+   }
+
+   .design-image {
+       width: 100px;
    }
 
    /* projects */
