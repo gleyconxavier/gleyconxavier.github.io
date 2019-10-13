@@ -389,6 +389,11 @@ ul#album-photos li {
     margin-left: 2px;
 }
 
+.area-contato {
+    clear: both;
+    margin-left: 40px;
+}
+
 /* buy me a coffee btn */
 
 .bmc-button img{
