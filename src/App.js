@@ -2,8 +2,8 @@ import React from 'react';
 import Particles from 'react-particles-js';
 import logo from './logo.svg';
 import Navigation from './components/Navigation/Navigation';
+import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
-import Services from './components/Services/Services';
 import './App.css';
 
 function App() {
@@ -37,7 +37,7 @@ function App() {
         </div>
       </header>
       <main>
-        <Services />
+        <Home />
       </main>
       <footer>
         <Footer />
