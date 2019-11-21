@@ -21,13 +21,28 @@ const Footer = () => {
         <RotInDownleft>
             <footer class="sans-serif">
                     <div class="bg-black-30">
-                        <nav class="dt mw8 center"> 
-                            <div class="dtc v-mid b3-white">
-                                <a class="f3 f1-ns fw4 hover-white no-underline white-70 dn dib pv2 ph3" href="/" ><GoHome /></a> 
-                                <a class="f3 f1-ns fw4 hover-white no-underline white-70 dn dib pv2 ph3" href="/skills" ><FaCode /></a> 
-                                <a class="f3 f1-ns fw4 hover-white no-underline white-70 dn dib pv2 ph3" href="/projects" ><IoMdFolderOpen /></a> 
-                                <a class="f3 f1-ns fw4 hover-white no-underline white-70 dn dib pv2 ph3" href="/about" ><MdPermIdentity /></a> 
-                                <a class="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" href="/contact" ><AiOutlineMail /></a> 
+                        <nav class="dt mw8 center tc"> 
+                            <div class="dtc b3-white">
+                                <a class="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" href="/" >
+                                    <GoHome className="icon-hide absolute-ns"/>
+                                    <p className="icon-text f3-ns dn dib-ns">Home</p>
+                                </a> 
+                                <a class="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" href="/skills" >
+                                    <FaCode className="icon-hide absolute-ns"/>
+                                    <p className="icon-text f3-ns dn dib-ns">Skills</p>
+                                </a> 
+                                <a class="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" href="/projects" >
+                                    <IoMdFolderOpen className="icon-hide absolute-ns"/>
+                                    <p className="icon-text f3-ns dn dib-ns">Jobs</p>
+                                </a> 
+                                <a class="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" href="/about" >
+                                    <MdPermIdentity className="icon-hide absolute-ns"/>
+                                    <p className="icon-text f3-ns dn dib-ns">Sobre</p>
+                                </a> 
+                                <a class="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" href="/contact" >
+                                    <AiOutlineMail className="icon-hide absolute-ns"/>
+                                    <p className="icon-text f3-ns dn dib-ns">Contato</p>
+                                </a> 
                             </div>
                         </nav>
                     </div>
