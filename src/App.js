@@ -1,9 +1,7 @@
 import React from 'react';
 import Particles from 'react-particles-js';
 import logo from './logo.svg';
-
 import Navigation from './components/Navigation/Navigation';
-
 import Footer from './components/Footer/Footer';
 import './App.css';
 
