@@ -2,7 +2,6 @@ import React from 'react';
 import styled, { keyframes } from 'styled-components';
 import {flipInY} from 'react-animations';
 import emailSvg from './email.svg';
-import inviteSvg from './invite.svg';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const flipinAnimation = keyframes`${flipInY}`;

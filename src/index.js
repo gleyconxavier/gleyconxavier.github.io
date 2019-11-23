@@ -16,10 +16,10 @@ ReactDOM.render(
         <App />
         <Switch>
             <Route path="/" exact={true} component={Home} />
-            <Route path="/skills" component={Skills} />
-            <Route path="/projects" component={Projects} />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
+            <Route path="/Skills" component={Skills} />
+            <Route path="/Projects" component={Projects} />
+            <Route path="/About" component={About} />
+            <Route path="/Contact" component={Contact} />
             <Route path="/*" component={Error} />
         </Switch>
     </ BrowserRouter>, document.getElementById('root'));

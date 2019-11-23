@@ -29,7 +29,7 @@ const Skills = () => {
               <span className="black-80 fw3 garamond">-Abraham Lincoln</span>
             </h3>
 
-            <img className="mw7-ns" src={coding} />
+            <img className="mw7-ns" src={coding} alt="Homem programando"/>
 
             <div class="pa4">
               <p class="f5-m f3-l lh-copy measure i bl bw1 b--gold mb4">
