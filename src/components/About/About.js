@@ -21,7 +21,7 @@ const About = () => {
             <FlipinDiv><h2 className="fw1 f3 white-70 mt3 pv1 bg-black-80 mb4">Quem sou eu?</h2></FlipinDiv>
 
             <article className="bg-white tc-ns pa3 pa5-ns br3 mb5">
-                <h3 className="f6 f4-l i">"Long history short"</h3>
+                <h3 className="f6 f4-l i">Long history short</h3>
                 
                 <ScrollAnimation animateIn='bounceInLeft'
                         animateOut='bounceOutRight'>
@@ -50,7 +50,7 @@ const About = () => {
                         <div className="measure lh-copy w-50-ns f5-m f3-l">
                             <p>
                                 Muito tempo depois e por sorte, acabei conhecendo o Curso em Vídeo e pude conhecer o desenvolvimento 
-                                web, que me chamou atenção afinal como assim programar e poder ver o resultado na hora? A partir daí
+                                web, que me chamou atenção , afinal, como assim programar e poder ver o resultado na hora? A partir daí
                                 montei um cronograma e não parei mais, passei a ler documentações, ler código de outros desenvolvedores,
                                 realizei cursos na Udemy e pratiquei muito, muito mesmo.
                             </p>
