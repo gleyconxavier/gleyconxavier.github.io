@@ -24,7 +24,7 @@ const About = () => {
                 <ScrollAnimation animateIn='bounceInLeft'
                         animateOut='bounceOutRight'>
                     <section className="flex flex-wrap justify-around items-center">
-                        <img src={emailSvg} class="mw7-ns w-50-ns" alt="Ilustração utilizando notebook"/>
+                        <img src={emailSvg} className="mw7-ns w-50-ns" alt="Ilustração utilizando notebook"/>
                         
                         <div className="measure lh-copy w-50-ns f5-m f3-l">
                             <h4>

@@ -26,7 +26,7 @@ const About = () => {
                 <ScrollAnimation animateIn='bounceInLeft'
                         animateOut='bounceOutRight'>
                     <section className="flex flex-wrap justify-around items-center">
-                        <img src={startupSvg} class="mw7-ns w-50-ns" alt="Ilustração utilizando notebook"/>
+                        <img src={startupSvg} className="mw7-ns w-50-ns" alt="Ilustração utilizando notebook"/>
                         
                         <div className="measure lh-copy w-50-ns f5-m f3-l">
                             <p>
@@ -46,7 +46,7 @@ const About = () => {
                 <ScrollAnimation animateIn='bounceInRight'
                         animateOut='bounceOutLeft'>
                     <section className="flex flex-wrap flex-row-reverse justify-around items-center">
-                        <img src={todoSvg} class="mw7-ns w-50-ns" alt="Ilustração lista de tarefas"/>
+                        <img src={todoSvg} className="mw7-ns w-50-ns" alt="Ilustração lista de tarefas"/>
                         <div className="measure lh-copy w-50-ns f5-m f3-l">
                             <p>
                                 Muito tempo depois e por sorte, acabei conhecendo o Curso em Vídeo e pude conhecer o desenvolvimento 
@@ -61,7 +61,7 @@ const About = () => {
                 <ScrollAnimation animateIn='bounceInLeft'
                         animateOut='bounceOutRight'>
                     <section className="flex flex-wrap justify-around items-center">
-                        <img src={gradSvg} class="mw7-ns w-50-ns" alt="Ilustração graduando"/>
+                        <img src={gradSvg} className="mw7-ns w-50-ns" alt="Ilustração graduando"/>
                         <div className="measure lh-copy w-50-ns f5-m f3-l">
                             <p>
                                 Dentro deste tempo, finalmente decidi que queria cursar o ensino superior dentro da área de tecnologia da informação,

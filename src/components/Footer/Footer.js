@@ -20,29 +20,29 @@ const Footer = () => {
     return (
 
         <RotInDownleft >
-            <footer class="sans-serif">
-                    <div class="bg-black-30">
-                        <nav class="dt mw8 center tc"> 
-                            <div class="dtc b3-white">
-                                <Link class="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" to="/" >
+            <footer>
+                    <div className="bg-black-30">
+                        <nav className="dt mw8 center tc"> 
+                            <div className="dtc b3-white sans-serif">
+                                <Link className="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" to="/" >
                                     <GoHome className="icon-hide absolute-ns"/>
-                                    <p className="icon-text f3-ns dn dib-ns">Home</p>
+                                    <p className="icon-text helvetica f3-ns dn dib-ns">Home</p>
                                 </Link> 
                                 <Link class="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" to="/skills" >
                                     <FaCode className="icon-hide absolute-ns"/>
-                                    <p className="icon-text f3-ns dn dib-ns">Skills</p>
+                                    <p className="icon-text helvetica f3-ns dn dib-ns">Skills</p>
                                 </Link> 
                                 <Link class="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" to="/projects" >
                                     <IoMdFolderOpen className="icon-hide absolute-ns"/>
-                                    <p className="icon-text f3-ns dn dib-ns">Jobs</p>
+                                    <p className="icon-text helvetica f3-ns dn dib-ns">Jobs</p>
                                 </Link> 
                                 <Link class="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" to="/about" >
                                     <MdPermIdentity className="icon-hide absolute-ns"/>
-                                    <p className="icon-text f3-ns dn dib-ns">Sobre</p>
+                                    <p className="icon-text helvetica f3-ns dn dib-ns">Sobre</p>
                                 </Link> 
                                 <Link class="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" to="/contact" >
                                     <AiOutlineMail className="icon-hide absolute-ns"/>
-                                    <p className="icon-text f3-ns dn dib-ns">Contato</p>
+                                    <p className="icon-text helvetica f3-ns dn dib-ns">Contato</p>
                                 </Link> 
                             </div>
                         </nav>
