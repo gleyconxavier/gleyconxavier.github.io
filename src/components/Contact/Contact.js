@@ -31,15 +31,18 @@ const About = () => {
                                 Contatos:
                             </h4>
                             <a href="https://api.whatsapp.com/send?phone=069984068936&text=Olá%20Gleycon%20vi%20seu%20portfólio%20vamos%20conversar?"
-                                 className="no-underline near-white bg-animate bg-green hover-bg-gray inline-flex pointer items-center ma2 tc br2 pa2">
+                                 className="no-underline near-white bg-animate bg-green hover-bg-gray inline-flex pointer items-center ma2 tc br2 pa2"
+                                 target="_blank" rel="noopener noreferrer">
                                 <span className="f6 ml3 pr2">Whatsapp</span>
                             </a>
                             <a href="https://api.whatsapp.com/send?phone=069984068936&text=Olá%20Gleycon%20vi%20seu%20portfólio%20vamos%20conversar?"
-                                 className="no-underline near-white bg-animate bg-black hover-bg-gray inline-flex pointer items-center ma2 tc br2 pa2">
+                                 className="no-underline near-white bg-animate bg-black hover-bg-gray inline-flex pointer items-center ma2 tc br2 pa2"
+                                 target="_blank" rel="noopener noreferrer" >
                                 <span className="f6 ml3 pr2">Email</span>
                             </a>
                             <a href="https://www.linkedin.com/in/gleyconxavier/"
-                                 className="no-underline near-white bg-animate bg-blue hover-bg-gray inline-flex pointer items-center ma2 tc br2 pa2">
+                                 className="no-underline near-white bg-animate bg-blue hover-bg-gray inline-flex pointer items-center ma2 tc br2 pa2"
+                                 target="_blank" rel="noopener noreferrer" >
                                 <span className="f6 ml3 pr2">LinkedIn</span>
                             </a>
                         </div>
