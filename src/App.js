@@ -3,6 +3,7 @@ import Particles from 'react-particles-js';
 import logo from './logo.svg';
 import Navigation from './components/Navigation/Navigation';
 import Footer from './components/Footer/Footer';
+import './Animate.css';
 import './App.css';
 
 function App() {
@@ -10,14 +11,14 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Navigation />
-        <Particles
+        <Particles 
         className="particles"
         params={{
           number: {
             value: 20,
             density: {
               enable: true,
-              value_area: 800
+              value_area: 600
               }
             },
             particles: {
