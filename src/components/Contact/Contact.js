@@ -35,7 +35,7 @@ const About = () => {
                                  target="_blank" rel="noopener noreferrer">
                                 <span className="f6 ml3 pr2">Whatsapp</span>
                             </a>
-                            <a href="https://api.whatsapp.com/send?phone=069984068936&text=Olá%20Gleycon%20vi%20seu%20portfólio%20vamos%20conversar?"
+                            <a href="mailto:gleyconxcarlos@gmail.com"
                                  className="no-underline near-white bg-animate bg-black hover-bg-gray inline-flex pointer items-center ma2 tc br2 pa2"
                                  target="_blank" rel="noopener noreferrer" >
                                 <span className="f6 ml3 pr2">Email</span>
