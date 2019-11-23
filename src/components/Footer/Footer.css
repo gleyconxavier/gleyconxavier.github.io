@@ -3,6 +3,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
+footer {
+    z-index: 2;
+}
 
 .icon-text {
     opacity: 0;

@@ -14,38 +14,45 @@ const FlipinDiv = styled.div`
 const Skills = () => {
   return (
     
-    <div className="tc mt4 mt5-m mt6-l ph4">
-            <FlipinDiv><h1 className="f1 fw2 white-90 pv1 bg-black-80 mb0 lh-title">Skills</h1></FlipinDiv>
-            <FlipinDiv><h2 className="fw1 f3 white-70 mt3 pv1 bg-black-80 mb4">Habilidades que cultivei</h2></FlipinDiv>
+    <div className="mt4 mt5-m mt6-l ph4 mw9-ns center">
 
+      <FlipinDiv><h1 className="tc f1 fw2 white-90 pv1 bg-black-80 mb0 lh-title">Skills</h1></FlipinDiv>
+      <FlipinDiv><h2 className="tc fw1 f3 white-70 mt3 pv1 bg-black-80 mb4">Habilidades que cultivei</h2></FlipinDiv>
+
+      
+      <article className="mb5">
             
-            <article>
-            
-        <header class="bg-white sans-serif">
-          <div class="mw9 center pa4 pt5-ns ph7-l">
-            <h3 class="f2 f1-m f-headline-l measure-narrow lh-title mv0">
+        <section class="bg-white sans-serif br3 flex flex-wrap pb5">
+          <div class="mw9 center pt5-ns">
+            <h3 class="f2 f-headline measure-narrow lh-title mv0 tc-ns">
               <span class="bg-black-90 lh-copy white pa1 tracked-tight">
                 Uma breve história...
               </span>
             </h3>
 
-            <img src={coding} />
+            <img className="mw7-ns" src={coding} />
 
-            <div class="pa4 ph7-l mw9-l center">
-              <p class="f6 f5-ns lh-copy measure i pl4 bl bw1 b--gold mb4">
+            <div class="pa4 center">
+              <p class="f5-m f3-l lh-copy measure i bl bw1 b--gold mb4">
                 Conheci o desenvolvimento web em setembro de 2018 e não parei mais.
               </p>
             </div>
 
-            <ScrollAnimation animateIn='bounceInLeft'
+            <ScrollAnimation className="f3-m measure lh-copy f5-m f3-l center" animateIn='bounceInLeft'
             animateOut='bounceOutRight'>
-            <p>Minhas principais habilidades giram em torno da stack MERN, também tive contato com Laravel e Wordpress</p>
-            <p>Ou seja estou ativamente utilizando MongoDB, Express, React.js, Node.js em minhas criações.</p>
-            <p>Evoluindo a cada novo projeto.</p>
+              <p>Minhas principais habilidades giram em torno da stack MERN, também tive contato com Laravel e Wordpress</p>
+              <p>Ou seja estou ativamente utilizando MongoDB, Express, React.js, Node.js em minhas criações
+                que vão desde One Pages, sites institucionais, sites de classificados, até API RESTful.</p>
+              <p>E Evoluindo coms os desafios de cada novo projeto.</p>
             </ScrollAnimation>
           </div>
           
-        </header>
+        </section>
+        <section>
+          <div>
+            <p>Node.js</p>
+          </div>
+        </section>
         
       </article>
       
