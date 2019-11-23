@@ -14,7 +14,7 @@ function App() {
         className="particles"
         params={{
           number: {
-            value: 30,
+            value: 20,
             density: {
               enable: true,
               value_area: 800
@@ -24,8 +24,7 @@ function App() {
               line_linked: {
                 shadow: {
                   enable: true,
-                  color: "#3CA9D1",
-                  blur: 5
+                  color: "#3CA9D1"
                 }
               }
             }

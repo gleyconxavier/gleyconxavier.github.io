@@ -22,8 +22,8 @@ const Skills = () => {
       
       <article className="mb5">
             
-        <section class="bg-white sans-serif br3 flex flex-wrap pb5">
-          <div class="center pa3 pa5-ns mw9 pt5-ns">
+        <section className="bg-white sans-serif br3 flex flex-wrap pb5">
+          <div className="center pa3 pa5-ns mw9 pt5-ns">
             <h3 className="f6 tc f5-l i">
               "Se eu tivesse oito horas para derrubar uma árvore, passaria seis afiando meu machado."<br></br>
               <span className="black-80 fw3 garamond">-Abraham Lincoln</span>
@@ -31,8 +31,8 @@ const Skills = () => {
 
             <img className="mw7-ns" src={coding} alt="Homem programando"/>
 
-            <div class="pa4">
-              <p class="f5-m f3-l lh-copy measure i bl bw1 b--gold mb4">
+            <div className="pa4">
+              <p className="f5-m f3-l lh-copy measure i bl bw1 b--gold mb4">
                 Conheci o desenvolvimento web em setembro de 2018 e não parei mais.
               </p>
             </div>

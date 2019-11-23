@@ -28,19 +28,19 @@ const Footer = () => {
                                     <GoHome className="icon-hide absolute-ns"/>
                                     <p className="icon-text helvetica f3-ns dn dib-ns">Home</p>
                                 </Link> 
-                                <Link class="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" to="/skills" >
+                                <Link className="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" to="/skills" >
                                     <FaCode className="icon-hide absolute-ns"/>
                                     <p className="icon-text helvetica f3-ns dn dib-ns">Skills</p>
                                 </Link> 
-                                <Link class="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" to="/projects" >
+                                <Link className="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" to="/projects" >
                                     <IoMdFolderOpen className="icon-hide absolute-ns"/>
                                     <p className="icon-text helvetica f3-ns dn dib-ns">Jobs</p>
                                 </Link> 
-                                <Link class="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" to="/about" >
+                                <Link className="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" to="/about" >
                                     <MdPermIdentity className="icon-hide absolute-ns"/>
                                     <p className="icon-text helvetica f3-ns dn dib-ns">Sobre</p>
                                 </Link> 
-                                <Link class="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" to="/contact" >
+                                <Link className="f3 f1-ns fw4 hover-white no-underline white-70 dib pv2 ph3" to="/contact" >
                                     <AiOutlineMail className="icon-hide absolute-ns"/>
                                     <p className="icon-text helvetica f3-ns dn dib-ns">Contato</p>
                                 </Link> 
