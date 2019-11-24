@@ -44,7 +44,7 @@ const Projects = () => {
                         animateOut='bounceOutRight'>
                     <section className="flex flex-wrap justify-around items-center">
 
-                        <img src={toDo} class="mw7-ns w-80-ns" alt="Ilustração desenvolvendo software"/>
+                        <img src={toDo} class="mw7-ns w-80-ns" alt="Ilustração desenvolvendo software desenvolvimento de sites em Rolim de Moura-RO"/>
                         
                     </section>
                 </ScrollAnimation>
@@ -62,7 +62,7 @@ const Projects = () => {
                         <picture  className="db w-100">
                                 <source srcset={todoWepb} type="image/webp"/>
                                 <source srcset={todoPng} type="image/jpeg"/>
-                                <img src="img/creakyOldJPEG.jpg" alt="Projeto lista de tarefas" title="Projeto lista de tarefas"/>
+                                <img src="img/creakyOldJPEG.jpg" alt="Projeto lista de tarefas desenvolvimento de sites em Rolim de Moura-RO" title="Projeto lista de tarefas"/>
                             </picture>
                         
                         <h4>Lista de Tarefas</h4>
@@ -78,7 +78,7 @@ const Projects = () => {
                         <picture  className="db w-100">
                             <source srcset={petmonitorWepb} type="image/webp"/>
                             <source srcset={petmonitorPng} type="image/jpeg"/>
-                            <img src="img/petmonitor.jpg" alt="Projeto Pet Monitor" title="Projeto Pet Monitor"/>
+                            <img src="img/petmonitor.jpg" alt="Projeto Pet Monitor desenvolvimento de sites em Rolim de Moura-RO" title="Projeto Pet Monitor"/>
                         </picture>
                         <h4>Pet Monitor</h4>
                         <p>
@@ -96,7 +96,7 @@ const Projects = () => {
                         <picture  className="db w-100">
                             <source srcset={smartbrainWepb} type="image/webp"/>
                             <source srcset={smartbrainPng} type="image/jpeg"/>
-                            <img src="img/smartbrain.jpg" alt="Projeto de reconhecimento facial" title="Projeto de reconhecimento facial"/>
+                            <img src="img/smartbrain.jpg" alt="Projeto de reconhecimento facial desenvolvimento de sites em Rolim de Moura-RO" title="Projeto de reconhecimento facial desenvolvimento de sites em Rolim de Moura-RO"/>
                         </picture>
                         <h4>Smartbrain</h4>
                         <p>
@@ -113,7 +113,7 @@ const Projects = () => {
                         <picture  className="db w-100">
                             <source srcset={orcpesWepb} type="image/webp"/>
                             <source srcset={orcpesPng} type="image/jpeg"/>
-                            <img src="img/orcpes.jpg" alt="Projeto de orçamento pessoal" title="Projeto de orçamento pessoal"/>
+                            <img src="img/orcpes.jpg" alt="Projeto de orçamento pessoal desenvolvimento de sites em Rolim de Moura-RO" title="Projeto de orçamento pessoal"/>
                         </picture>
                         <h4>Projeto Orçamento Pessoal</h4>
                         <p>Projeto utilizando o local storage do navegador.</p>
@@ -132,7 +132,7 @@ const Projects = () => {
                         <picture  className="db w-100">
                             <source srcset={mazzaWepb} type="image/webp"/>
                             <source srcset={mazzaPng} type="image/jpeg"/>
-                            <img src="img/mazza.jpg" alt="Projeto pizarria Mazza" title="Projeto pizarria Mazza"/>
+                            <img src="img/mazza.jpg" alt="Projeto pizarria Mazza desenvolvimento de sites em Rolim de Moura-RO" title="Projeto pizarria Mazza"/>
                         </picture>
                     <h4>Mazza Pizzaria</h4>
                     <p>Criação de site Wordpress.</p>
@@ -145,7 +145,7 @@ const Projects = () => {
                         <picture  className="db w-100">
                             <source srcset={tindogWepb} type="image/webp"/>
                             <source srcset={tindogPng} type="image/jpeg"/>
-                            <img src="img/tindog.jpg" alt="Projeto Tindog" title="Projeto Tindog"/>
+                            <img src="img/tindog.jpg" alt="Projeto Tindog  desenvolvimento de sites em Rolim de Moura-RO" title="Projeto Tindog"/>
                         </picture>
                         <h4>Tindog</h4>
                         <p>Criação de Landing Page direcionada a promoção de aplicativo de matches para pets.</p>
@@ -165,7 +165,7 @@ const Projects = () => {
                         <picture  className="db w-100">
                             <source srcset={cineartWepb} type="image/webp"/>
                             <source srcset={cineartPng} type="image/jpeg"/>
-                            <img src="img/cineart.jpg" alt="Projeto Cineart" title="Projeto Cineart"/>
+                            <img src="img/cineart.jpg" alt="Projeto Cineart  desenvolvimento de sites em Rolim de Moura-RO" title="Projeto Cineart"/>
                         </picture>
                         <h4>Cineart</h4>
                         <p>Desenvolvimento de tema Wordpress.</p>
@@ -180,7 +180,7 @@ const Projects = () => {
                         <picture  className="db w-100">
                             <source srcset={testereacaoWepb} type="image/webp"/>
                             <source srcset={testereacaoPng} type="image/jpeg"/>
-                            <img src="img/testereacao.jpg" alt="Projeto teste de reação" title="Projeto teste de reação"/>
+                            <img src="img/testereacao.jpg" alt="Projeto teste de reação  desenvolvimento de sites em Rolim de Moura-RO" title="Projeto teste de reação"/>
                         </picture>
                         <h4>Teste de reação</h4>
                         <p>
@@ -193,7 +193,7 @@ const Projects = () => {
                         <picture  className="db w-100">
                             <source srcset={simonWepb} type="image/webp"/>
                             <source srcset={simonPng} type="image/jpeg"/>
-                            <img src="img/simon.jpg" alt="Projeto Simon" title="Projeto Simon"/>
+                            <img src="img/simon.jpg" alt="Projeto Simon  desenvolvimento de sites em Rolim de Moura-RO" title="Projeto Simon"/>
                         </picture>
                         <h4>Simon</h4>
                         <p>

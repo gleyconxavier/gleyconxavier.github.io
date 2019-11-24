@@ -37,7 +37,7 @@ const About = () => {
                             <p>
                                 Então o tempo passou e tive meu primeiro contato com a programação, com as linguagens Java e Ruby,
                                 embora conseguisse realizar algoritmos simples, não conseguia entender como aplicar aquilo e então 
-                                fui perdendo o interesse por não conseguir chegar em lugar algum, afinal não possuia nenhum mentor.
+                                fui perdendo o interesse por não conseguir chegar em lugar algum, afinal não possuía nenhum mentor.
                             </p>
                         </div>
                     </section>

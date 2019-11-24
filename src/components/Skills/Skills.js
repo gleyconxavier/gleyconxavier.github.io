@@ -42,7 +42,7 @@ const Skills = () => {
               <p>Minhas principais habilidades giram em torno da stack MERN, também tive contato com Laravel e Wordpress</p>
               <p>Ou seja estou ativamente utilizando MongoDB, Express, React.js, Node.js em minhas criações
                 que vão desde One Pages, sites institucionais, sites de classificados, até API RESTful.</p>
-              <p>Evoluindo coms os desafios de cada novo projeto.</p>
+              <p>Evoluindo com os desafios de cada novo projeto.</p>
             </ScrollAnimation>
           </div>
           
