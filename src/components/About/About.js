@@ -1,24 +1,16 @@
 import React from 'react';
-import styled, { keyframes } from 'styled-components';
-import {flipInY} from 'react-animations';
 import startupSvg from './startup.svg';
 import todoSvg from './to-do-list.svg';
 import gradSvg from './graduating.svg';
 import ScrollAnimation from 'react-animate-on-scroll';
-
-const flipinAnimation = keyframes`${flipInY}`;
-
-const FlipinDiv = styled.div`
-  animation: 1s ${flipinAnimation};
-`;
 
 const About = () => {
     return (
 
         <div className="tc mt4 mt5-m mt6-l ph4 mw9-ns center">
             
-            <FlipinDiv><h1 className="f1 fw2 white-90 pv1 bg-black-80 mb0 lh-title">Um pouco sobre <span className="white-50">mim</span></h1></FlipinDiv>
-            <FlipinDiv><h2 className="fw1 f3 white-70 mt3 pv1 bg-black-80 mb4">Quem sou eu?</h2></FlipinDiv>
+            <h1 className="f1 animated flipInY fw2 white-90 pv1 bg-black-80 mb0 lh-title">Um pouco sobre <span className="white-50">mim</span></h1>
+            <h2 className="fw1 animated flipInY f3 white-70 mt3 pv1 bg-black-80 mb4">Quem sou eu?</h2>
 
             <article className="bg-white tc-ns pa3 pa5-ns br3 mb5">
                 <h3 className="f6 f4-l i">Long history short</h3>

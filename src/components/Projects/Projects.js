@@ -1,6 +1,4 @@
 import React from 'react';
-import styled, { keyframes } from 'styled-components';
-import {flipInY} from 'react-animations';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 import toDo from './asana-asana-com.svg';
@@ -23,19 +21,13 @@ import tindogPng from './Images/tindog-site.png';
 import todoWepb from './Images/todo-app.webp';
 import todoPng from './Images/todo-app.png';
 
-const flipinAnimation = keyframes`${flipInY}`;
-
-const FlipinDiv = styled.div`
-  animation: 1s ${flipinAnimation};
-`;
-
 const Projects = () => {
     return (
 
         <div className="tc mt4 mt5-m mt6-l ph4 mw9-ns center">
             
-            <FlipinDiv><h1 className="f1 fw2 white-90 pv1 bg-black-80 mb0 lh-title">Projetos</h1></FlipinDiv>
-            <FlipinDiv><h2 className="fw1 f3 white-70 mt3 pv1 bg-black-80 mb4">Work Hard</h2></FlipinDiv>
+            <h1 className="f1 fw2 animated flipInY white-90 pv1 bg-black-80 mb0 lh-title">Projetos</h1>
+            <h2 className="fw1 f3 animated flipInY white-70 mt3 pv1 bg-black-80 mb4">Work Hard</h2>
 
             <article className="bg-white tc-ns pa3 pa5-ns br3 mb5">
                 <h3 className="f6 f4-l i">Meus projetos</h3>
