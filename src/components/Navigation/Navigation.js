@@ -4,21 +4,12 @@ import {Link} from 'react-router-dom';
 import logo from '../../logo.svg';
 import {FaGithubAlt} from 'react-icons/fa';
 import {FaLinkedin} from 'react-icons/fa';
-import styled, { keyframes } from 'styled-components';
-import {rotateInUpRight} from 'react-animations';
 import 'tachyons';
-
-const rotateInUpRightAnimation = keyframes`${rotateInUpRight}`;
-
-const RotInUpRight = styled.div`
-  animation: 1s ${rotateInUpRightAnimation};
-`;
 
 const Navigation = () => {
     return (
         <nav>
 
-            <RotInUpRight>
                 <header className="sans-serif">
                     <div className="bg-black-30 dt w-100 center"> 
                         <div className="dtc w2 v-mid pa3">
@@ -32,7 +23,6 @@ const Navigation = () => {
                         </div>
                     </div>
                 </header>
-            </RotInUpRight>
         
         </nav>
     );

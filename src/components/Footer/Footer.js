@@ -4,22 +4,13 @@ import {GoHome} from 'react-icons/go';
 import {FaCode} from 'react-icons/fa';
 import {IoMdFolderOpen} from 'react-icons/io';
 import {AiOutlineMail} from 'react-icons/ai';
-import styled, { keyframes } from 'styled-components';
-import {rotateInDownLeft} from 'react-animations';
 import {Link} from 'react-router-dom';
 import './Footer.css';
 import 'tachyons';
 
-const rotateInDownLeftAnimation = keyframes`${rotateInDownLeft}`;
-
-const RotInDownleft = styled.div`
-  animation: 2s ${rotateInDownLeftAnimation};
-`;
-
 const Footer = () => {
     return (
 
-        <RotInDownleft >
             <footer>
                     <div className="bg-black-30">
                         <nav className="dt mw8 center tc"> 
@@ -48,7 +39,6 @@ const Footer = () => {
                         </nav>
                     </div>
             </footer>
-        </RotInDownleft>
     );
 }
 

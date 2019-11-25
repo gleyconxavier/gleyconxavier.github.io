@@ -4,7 +4,6 @@ import logo from './logo.svg';
 import Navigation from './components/Navigation/Navigation';
 import Footer from './components/Footer/Footer';
 import './Animate.css';
-import './App.css';
 
 function App() {
   return (
@@ -15,19 +14,7 @@ function App() {
         className="particles"
         params={{
           number: {
-            value: 20,
-            density: {
-              enable: true,
-              value_area: 600
-              }
-            },
-            particles: {
-              line_linked: {
-                shadow: {
-                  enable: true,
-                  color: "#3CA9D1"
-                }
-              }
+            value: 1,
             }
           }}
           style={{

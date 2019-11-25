@@ -13,8 +13,8 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <BrowserRouter>
+        <App />
         <Switch>
-            <Route path="/" component={App} />
             <Route path="/" exact={true} component={Home} />
             <Route path="/Skills" component={Skills} />
             <Route path="/Projects" component={Projects} />
