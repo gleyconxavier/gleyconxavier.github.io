@@ -1,23 +1,15 @@
 import React from 'react';
-import styled, { keyframes } from 'styled-components';
-import {flipInY} from 'react-animations';
 import ScrollAnimation from 'react-animate-on-scroll';
 import coding from './coding.svg';
 import './Skills.css';
-
-const flipinAnimation = keyframes`${flipInY}`;
-
-const FlipinDiv = styled.div`
-  animation: 1s ${flipinAnimation};
-`;
 
 const Skills = () => {
   return (
     
     <div className="mt4 mt5-m mt6-l ph4 mw9-ns center">
 
-      <FlipinDiv><h1 className="tc f1 fw2 white-90 pv1 bg-black-80 mb0 lh-title">Skills</h1></FlipinDiv>
-      <FlipinDiv><h2 className="tc fw1 f3 white-70 mt3 pv1 bg-black-80 mb4">Habilidades que cultivei</h2></FlipinDiv>
+      <h1 className="tc f1 animated flipInY fw2 white-90 pv1 bg-black-80 mb0 lh-title">Skills</h1>
+      <h2 className="tc fw1 animated flipInY f3 white-70 mt3 pv1 bg-black-80 mb4">Habilidades que cultivei</h2>
 
       
       <article className="mb5">
