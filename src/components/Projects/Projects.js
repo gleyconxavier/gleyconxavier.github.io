@@ -36,7 +36,7 @@ const Projects = () => {
                         animateOut='bounceOutRight'>
                     <section className="flex flex-wrap justify-around items-center">
 
-                        <img src={toDo} class="mw7-ns w-80-ns" alt="Ilustração desenvolvendo software desenvolvimento de sites em Rolim de Moura-RO"/>
+                        <img src={toDo} className="mw7-ns w-80-ns" alt="Ilustração desenvolvendo software desenvolvimento de sites em Rolim de Moura-RO"/>
                         
                     </section>
                 </ScrollAnimation>
@@ -52,8 +52,8 @@ const Projects = () => {
 
                     <a href="https://fazer.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
-                                <source srcset={todoWepb} type="image/webp"/>
-                                <source srcset={todoPng} type="image/jpeg"/>
+                                <source srcSet={todoWepb} type="image/webp"/>
+                                <source srcSet={todoPng} type="image/jpeg"/>
                                 <img src="img/creakyOldJPEG.jpg" alt="Projeto lista de tarefas desenvolvimento de sites em Rolim de Moura-RO" title="Projeto lista de tarefas"/>
                             </picture>
                         
@@ -68,8 +68,8 @@ const Projects = () => {
 
                     <a href="https://gleyconxavier.github.io/pet-monitor/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
-                            <source srcset={petmonitorWepb} type="image/webp"/>
-                            <source srcset={petmonitorPng} type="image/jpeg"/>
+                            <source srcSet={petmonitorWepb} type="image/webp"/>
+                            <source srcSet={petmonitorPng} type="image/jpeg"/>
                             <img src="img/petmonitor.jpg" alt="Projeto Pet Monitor desenvolvimento de sites em Rolim de Moura-RO" title="Projeto Pet Monitor"/>
                         </picture>
                         <h4>Pet Monitor</h4>
@@ -86,8 +86,8 @@ const Projects = () => {
 
                     <a href="https://gleyconxavier.github.io/smartbrain/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
-                            <source srcset={smartbrainWepb} type="image/webp"/>
-                            <source srcset={smartbrainPng} type="image/jpeg"/>
+                            <source srcSet={smartbrainWepb} type="image/webp"/>
+                            <source srcSet={smartbrainPng} type="image/jpeg"/>
                             <img src="img/smartbrain.jpg" alt="Projeto de reconhecimento facial desenvolvimento de sites em Rolim de Moura-RO" title="Projeto de reconhecimento facial desenvolvimento de sites em Rolim de Moura-RO"/>
                         </picture>
                         <h4>Smartbrain</h4>
@@ -103,8 +103,8 @@ const Projects = () => {
                         animateOut='fadeOut'>
                     <a href="https://gleyconxavier.github.io/orcamento-pessoal/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
-                            <source srcset={orcpesWepb} type="image/webp"/>
-                            <source srcset={orcpesPng} type="image/jpeg"/>
+                            <source srcSet={orcpesWepb} type="image/webp"/>
+                            <source srcSet={orcpesPng} type="image/jpeg"/>
                             <img src="img/orcpes.jpg" alt="Projeto de orçamento pessoal desenvolvimento de sites em Rolim de Moura-RO" title="Projeto de orçamento pessoal"/>
                         </picture>
                         <h4>Projeto Orçamento Pessoal</h4>
@@ -122,8 +122,8 @@ const Projects = () => {
                             animateOut='fadeOut'>
                     <a href="https://resilient-cheek.000webhostapp.com/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
-                            <source srcset={mazzaWepb} type="image/webp"/>
-                            <source srcset={mazzaPng} type="image/jpeg"/>
+                            <source srcSet={mazzaWepb} type="image/webp"/>
+                            <source srcSet={mazzaPng} type="image/jpeg"/>
                             <img src="img/mazza.jpg" alt="Projeto pizarria Mazza desenvolvimento de sites em Rolim de Moura-RO" title="Projeto pizarria Mazza"/>
                         </picture>
                     <h4>Mazza Pizzaria</h4>
@@ -135,8 +135,8 @@ const Projects = () => {
                             animateOut='fadeOut'>
                     <a href="https://gleyconxavier.github.io/tindog/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
-                            <source srcset={tindogWepb} type="image/webp"/>
-                            <source srcset={tindogPng} type="image/jpeg"/>
+                            <source srcSet={tindogWepb} type="image/webp"/>
+                            <source srcSet={tindogPng} type="image/jpeg"/>
                             <img src="img/tindog.jpg" alt="Projeto Tindog  desenvolvimento de sites em Rolim de Moura-RO" title="Projeto Tindog"/>
                         </picture>
                         <h4>Tindog</h4>
@@ -155,8 +155,8 @@ const Projects = () => {
 
                     <a href="https://unmilled-grooves.000webhostapp.com/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
-                            <source srcset={cineartWepb} type="image/webp"/>
-                            <source srcset={cineartPng} type="image/jpeg"/>
+                            <source srcSet={cineartWepb} type="image/webp"/>
+                            <source srcSet={cineartPng} type="image/jpeg"/>
                             <img src="img/cineart.jpg" alt="Projeto Cineart  desenvolvimento de sites em Rolim de Moura-RO" title="Projeto Cineart"/>
                         </picture>
                         <h4>Cineart</h4>
@@ -170,8 +170,8 @@ const Projects = () => {
 
                     <a href="https://gleyconxavier.github.io/teste-reacao/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
-                            <source srcset={testereacaoWepb} type="image/webp"/>
-                            <source srcset={testereacaoPng} type="image/jpeg"/>
+                            <source srcSet={testereacaoWepb} type="image/webp"/>
+                            <source srcSet={testereacaoPng} type="image/jpeg"/>
                             <img src="img/testereacao.jpg" alt="Projeto teste de reação  desenvolvimento de sites em Rolim de Moura-RO" title="Projeto teste de reação"/>
                         </picture>
                         <h4>Teste de reação</h4>
@@ -183,8 +183,8 @@ const Projects = () => {
 
                     <a href="https://unmilled-grooves.000webhostapp.com/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
-                            <source srcset={simonWepb} type="image/webp"/>
-                            <source srcset={simonPng} type="image/jpeg"/>
+                            <source srcSet={simonWepb} type="image/webp"/>
+                            <source srcSet={simonPng} type="image/jpeg"/>
                             <img src="img/simon.jpg" alt="Projeto Simon  desenvolvimento de sites em Rolim de Moura-RO" title="Projeto Simon"/>
                         </picture>
                         <h4>Simon</h4>

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
 import logo from '../../logo.svg';
+import Home from '../Home/Home';
 import {FaGithubAlt} from 'react-icons/fa';
 import {FaLinkedin} from 'react-icons/fa';
 import 'tachyons';
@@ -13,7 +13,7 @@ const Navigation = () => {
                 <header className="sans-serif">
                     <div className="bg-black-30 dt w-100 center"> 
                         <div className="dtc w2 v-mid pa3">
-                            <Link to="/" className="dib w2 h2 ba b--white-90 grow-large border-box">
+                            <Link to={Home} className="dib w2 h2 ba b--white-90 grow-large border-box">
                             <img src={logo} className="App-logo" alt="logo" />
                             </Link>
                         </div>

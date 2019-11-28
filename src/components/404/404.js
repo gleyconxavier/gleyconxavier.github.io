@@ -16,7 +16,7 @@ const Error = () => {
                 <ScrollAnimation animateIn='tada'
                         animateOut='zoomOutDown'>
                     <section className="flex flex-wrap justify-around items-center center">
-                        <img src={ghostSvg} class="mw7-ns" alt="Ilustração utilizando notebook"/>
+                        <img src={ghostSvg} className="mw7-ns" alt="Ilustração utilizando notebook"/>
                         
                         <div className="measure lh-copy w-50-ns f5-m f3-l">
                             <p>
