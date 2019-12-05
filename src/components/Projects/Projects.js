@@ -2,6 +2,8 @@ import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 import toDo from './asana-asana-com.svg';
+import bgonWepb from './Images/barbearia-goncalves.webp';
+import bgonPng from './Images/barbearia-goncalves-min.PNG';
 import mazzaWepb from './Images/mazza-pizarria-wp.webp';
 import mazzaPng from './Images/mazza-pizarria-wp-min.png';
 import cineartWepb from './Images/cineart-wp.webp';
@@ -47,7 +49,23 @@ const Projects = () => {
 
                 <div className="fl w-100 w-50-ns ph2">
 
-                    <ScrollAnimation animateIn='fadeIn'
+                <ScrollAnimation animateIn='fadeIn'
+                        animateOut='fadeOut'>
+
+                <a href="https://barbeariagoncalves.000webhostapp.com/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
+                    <picture  className="db w-100">
+                            <source srcSet={bgonWepb} type="image/webp"/>
+                            <source srcSet={bgonPng} type="image/jpeg"/>
+                            <img src="img/bgonJPEG.jpg" alt="Projeto barbearia Gonçalves desenvolvimento de sites em Rolim de Moura-RO" title="Projeto barbearia Gonçalves"/>
+                        </picture>
+                    
+                    <h4>Barbearia Gonçalves</h4>
+                    <p>Site institucional, blog e sistema de agendamento.</p>
+                </a>
+                
+                </ScrollAnimation>
+
+                <ScrollAnimation animateIn='fadeIn'
                         animateOut='fadeOut'>
 
                     <a href="https://fazer.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
