@@ -1,3 +1,2 @@
-Sitemap: http://gleyconxavier.github.io/sitemap.xml
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
