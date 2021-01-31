@@ -34,12 +34,12 @@ function App() {
       <HashRouter basename={process.env.PUBLIC_URL}>
         <Navigation />
         <Switch>
-            <Route path="/" exact={true} component={Home} />
-            <Route path="/Skills" component={Skills} />
-            <Route path="/Projects" component={Projects} />
-            <Route path="/About" component={About} />
-            <Route path="/Contact" component={Contact} />
-            <Route path='*' exact={true} component={Error} />
+          <Route path="/" exact={true} component={Home} />
+          <Route path="/Skills" component={Skills} />
+          <Route path="/Projects" component={Projects} />
+          <Route path="/About" component={About} />
+          <Route path="/Contact" component={Contact} />
+          <Route path='*' exact={true} component={Error} />
         </Switch>
         <Footer />
     </ HashRouter>
