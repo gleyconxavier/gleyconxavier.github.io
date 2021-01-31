@@ -22,9 +22,9 @@ const About = () => {
                         
                         <div className="measure lh-copy w-50-ns f5-m f3-l">
                             <p>
-                                Atuei em diversas áreas, dei aulas sobre informática, atuei como técnico em informática,
-                                mas embora sabia que minha vocação estava na área de tecnologia da informação, ainda não tinha certeza 
-                                se estes eram os nichos que queria percorrer ao longo da vida.
+                                Atuei nas mais diversas áreas da tecnologia da informação, desde professor de informática avançada a
+                                técnico em informática, embora sabia que minha vocação estava na área de tecnologia da informação,
+                                sentia que estes não eram os nichos que queria percorrer ao longo da vida.
                             </p>
                             <p>
                                 Então o tempo passou e tive meu primeiro contato com a programação, com as linguagens Java e Ruby,
