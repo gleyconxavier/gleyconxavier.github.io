@@ -2,12 +2,6 @@ import React from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 import toDo from './asana-asana-com.svg';
-import bgonWepb from './Images/barbearia-goncalves.webp';
-import bgonPng from './Images/barbearia-goncalves-min.PNG';
-import mazzaWepb from './Images/mazza-pizarria-wp.webp';
-import mazzaPng from './Images/mazza-pizarria-wp-min.png';
-import cineartWepb from './Images/cineart-wp.webp';
-import cineartPng from './Images/cineart-wp-min.png';
 import orcpesWepb from './Images/orçamento-pessoal.webp';
 import orcpesPng from './Images/orçamento-pessoal.png';
 import petmonitorWepb from './Images/petmonitor.webp';
@@ -48,22 +42,6 @@ const Projects = () => {
                 {/* Large */}
 
                 <div className="fl w-100 w-50-ns ph2">
-
-                <ScrollAnimation animateIn='fadeIn'
-                        animateOut='fadeOut'>
-
-                <a href="https://barbeariagoncalves.000webhostapp.com/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
-                    <picture  className="db w-100">
-                            <source srcSet={bgonWepb} type="image/webp"/>
-                            <source srcSet={bgonPng} type="image/jpeg"/>
-                            <img src="img/bgonJPEG.jpg" alt="Projeto barbearia Gonçalves desenvolvimento de sites em Rolim de Moura-RO" title="Projeto barbearia Gonçalves"/>
-                        </picture>
-                    
-                    <h4>Barbearia Gonçalves</h4>
-                    <p>Site institucional, blog e sistema de agendamento.</p>
-                </a>
-                
-                </ScrollAnimation>
 
                 <ScrollAnimation animateIn='fadeIn'
                         animateOut='fadeOut'>
@@ -136,20 +114,7 @@ const Projects = () => {
 
                 <div className="fl w-50 w-25-ns ph2">
 
-                    <ScrollAnimation animateIn='fadeIn'
-                            animateOut='fadeOut'>
-                    <a href="https://resilient-cheek.000webhostapp.com/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
-                        <picture  className="db w-100">
-                            <source srcSet={mazzaWepb} type="image/webp"/>
-                            <source srcSet={mazzaPng} type="image/jpeg"/>
-                            <img src="img/mazza.jpg" alt="Projeto pizarria Mazza desenvolvimento de sites em Rolim de Moura-RO" title="Projeto pizarria Mazza"/>
-                        </picture>
-                    <h4>Mazza Pizzaria</h4>
-                    <p>Criação de site Wordpress.</p>
-                    </a>
-                    </ScrollAnimation>
-
-                    <ScrollAnimation animateIn='fadeIn'
+                                        <ScrollAnimation animateIn='fadeIn'
                             animateOut='fadeOut'>
                     <a href="https://gleyconxavier.github.io/tindog/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
@@ -167,39 +132,24 @@ const Projects = () => {
                 {/* Small */}
 
                 <div className="fl w-50 w-25-ns ph2">
-
-                    <ScrollAnimation animateIn='fadeIn'
-                        animateOut='fadeOut'>
-
-                    <a href="https://unmilled-grooves.000webhostapp.com/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
-                        <picture  className="db w-100">
-                            <source srcSet={cineartWepb} type="image/webp"/>
-                            <source srcSet={cineartPng} type="image/jpeg"/>
-                            <img src="img/cineart.jpg" alt="Projeto Cineart  desenvolvimento de sites em Rolim de Moura-RO" title="Projeto Cineart"/>
-                        </picture>
-                        <h4>Cineart</h4>
-                        <p>Desenvolvimento de tema Wordpress.</p>
-                    </a>
                     
-                    </ScrollAnimation>
-
                     <ScrollAnimation animateIn='fadeIn'
                         animateOut='fadeOut'>
 
-                    <a href="https://gleyconxavier.github.io/teste-reacao/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
-                        <picture  className="db w-100">
-                            <source srcSet={testereacaoWepb} type="image/webp"/>
-                            <source srcSet={testereacaoPng} type="image/jpeg"/>
-                            <img src="img/testereacao.jpg" alt="Projeto teste de reação  desenvolvimento de sites em Rolim de Moura-RO" title="Projeto teste de reação"/>
-                        </picture>
-                        <h4>Teste de reação</h4>
-                        <p>
-                            Cronômetra e marca o melhor tempo de reação em que o usuário clickou na área
-                            designada.
-                        </p>
-                    </a>
+                      <a href="https://gleyconxavier.github.io/teste-reacao/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
+                          <picture  className="db w-100">
+                              <source srcSet={testereacaoWepb} type="image/webp"/>
+                              <source srcSet={testereacaoPng} type="image/jpeg"/>
+                              <img src="img/testereacao.jpg" alt="Projeto teste de reação  desenvolvimento de sites em Rolim de Moura-RO" title="Projeto teste de reação"/>
+                          </picture>
+                          <h4>Teste de reação</h4>
+                          <p>
+                              Cronômetra e marca o melhor tempo de reação em que o usuário clickou na área
+                              designada.
+                          </p>
+                      </a>
 
-                    <a href="https://unmilled-grooves.000webhostapp.com/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
+                    <a href="https://www.gleyconxavier.com/simon/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
                             <source srcSet={simonWepb} type="image/webp"/>
                             <source srcSet={simonPng} type="image/jpeg"/>
