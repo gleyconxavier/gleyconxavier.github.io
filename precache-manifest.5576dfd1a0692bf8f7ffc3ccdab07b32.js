@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92df93cb0175b0d8c77888eaf9793540",
+    "revision": "f0fe97e281c3f9dbf45a8c9582959b61",
     "url": "/index.html"
   },
   {
-    "revision": "b2e923a4927a302c9330",
+    "revision": "b5ce1674f32cd6833fc4",
     "url": "/static/css/2.038644eb.chunk.css"
   },
   {
-    "revision": "53e68247cc38bf7bb854",
-    "url": "/static/css/main.5dfc8707.chunk.css"
+    "revision": "c0ce1bc49309c793cbff",
+    "url": "/static/css/main.34efd9d1.chunk.css"
   },
   {
-    "revision": "b2e923a4927a302c9330",
-    "url": "/static/js/2.4283ca89.chunk.js"
+    "revision": "b5ce1674f32cd6833fc4",
+    "url": "/static/js/2.97e9f2a1.chunk.js"
   },
   {
-    "revision": "53e68247cc38bf7bb854",
-    "url": "/static/js/main.a012fa8e.chunk.js"
+    "revision": "c0ce1bc49309c793cbff",
+    "url": "/static/js/main.29330960.chunk.js"
   },
   {
     "revision": "a307c4f00daf118ea6fa",
@@ -30,22 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "82c1d2704b74d171527ca299dbd754c0",
     "url": "/static/media/asana-asana-com.82c1d270.svg"
-  },
-  {
-    "revision": "bccf3cf0c29a89fe145717330f1e6e9a",
-    "url": "/static/media/barbearia-goncalves-min.bccf3cf0.PNG"
-  },
-  {
-    "revision": "d4925755c5080817eb51765a2c310ee6",
-    "url": "/static/media/barbearia-goncalves.d4925755.webp"
-  },
-  {
-    "revision": "0b85ab17f4050e33c228bc6fb726f35d",
-    "url": "/static/media/cineart-wp-min.0b85ab17.png"
-  },
-  {
-    "revision": "8ab6e3b1862484cba5d220513e85ab54",
-    "url": "/static/media/cineart-wp.8ab6e3b1.webp"
   },
   {
     "revision": "a5673fb6c26cb9cd856342b0c7010f39",
@@ -62,14 +46,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4c7bcac52a88445608318c8ea64f8d93",
     "url": "/static/media/logo.4c7bcac5.svg"
-  },
-  {
-    "revision": "1b899062ef22445be9dc6b3e212e490d",
-    "url": "/static/media/mazza-pizarria-wp-min.1b899062.png"
-  },
-  {
-    "revision": "893662234b9c2275fe64fb6b74c2f099",
-    "url": "/static/media/mazza-pizarria-wp.89366223.webp"
   },
   {
     "revision": "93ca4f60cfbad63369840beaf58a47a5",
