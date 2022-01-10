@@ -39,7 +39,7 @@ function App() {
           <Route path="/Projects" component={Projects} />
           <Route path="/About" component={About} />
           <Route path="/Contact" component={Contact} />
-          <Route path='*' exact={true} component={Error} />
+          {/*<Route path='*' exact={true} component={Error} />*/}
         </Switch>
         <Footer />
     </ HashRouter>
