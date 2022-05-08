@@ -2,7 +2,6 @@ import React from 'react';
 import startupSvg from './startup.svg';
 import todoSvg from './to-do-list.svg';
 import gradSvg from './graduating.svg';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 const About = () => {
     return (
@@ -15,7 +14,7 @@ const About = () => {
             <article className="bg-white tc-ns pa3 pa5-ns br3 mb5">
                 <h3 className="f6 f4-l i">Long history short</h3>
                 
-                <ScrollAnimation animateIn='bounceInLeft'
+                <div animateIn='bounceInLeft'
                         animateOut='bounceOutRight'>
                     <section className="flex flex-wrap justify-around items-center">
                         <img src={startupSvg} className="mw7-ns w-50-ns" alt="Ilustração utilizando notebook"/>
@@ -33,9 +32,9 @@ const About = () => {
                             </p>
                         </div>
                     </section>
-                </ScrollAnimation>
+                </div>
 
-                <ScrollAnimation animateIn='bounceInRight'
+                <div animateIn='bounceInRight'
                         animateOut='bounceOutLeft'>
                     <section className="flex flex-wrap flex-row-reverse justify-around items-center">
                         <img src={todoSvg} className="mw7-ns w-50-ns" alt="Ilustração lista de tarefas"/>
@@ -48,9 +47,9 @@ const About = () => {
                             </p>
                         </div>
                     </section>
-                </ScrollAnimation>
+                </div>
 
-                <ScrollAnimation animateIn='bounceInLeft'
+                <div animateIn='bounceInLeft'
                         animateOut='bounceOutRight'>
                     <section className="flex flex-wrap justify-around items-center">
                         <img src={gradSvg} className="mw7-ns w-50-ns" alt="Ilustração graduando"/>
@@ -62,7 +61,7 @@ const About = () => {
                             </p>
                         </div>
                     </section>
-                </ScrollAnimation>
+                </div>
 
             </article>
         </div>

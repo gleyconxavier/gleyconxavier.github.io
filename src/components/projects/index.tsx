@@ -1,5 +1,4 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
 
 import toDo from './asana-asana-com.svg';
 import orcpesWepb from './Images/orçamento-pessoal.webp';
@@ -46,7 +45,7 @@ const Projects = () => {
                 <ScrollAnimation animateIn='fadeIn'
                         animateOut='fadeOut'>
 
-                    <a href="https://fazer.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
+                    <a href="src/components/projects/index.tsx" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
                                 <source srcSet={todoWepb} type="image/webp"/>
                                 <source srcSet={todoPng} type="image/jpeg"/>
@@ -62,7 +61,7 @@ const Projects = () => {
                     <ScrollAnimation animateIn='fadeIn'
                         animateOut='fadeOut'>
 
-                    <a href="https://gleyconxavier.github.io/pet-monitor/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
+                    <a href="src/components/projects/index.tsx" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
                             <source srcSet={petmonitorWepb} type="image/webp"/>
                             <source srcSet={petmonitorPng} type="image/jpeg"/>
@@ -80,7 +79,7 @@ const Projects = () => {
                     <ScrollAnimation animateIn='fadeIn'
                         animateOut='fadeOut'>
 
-                    <a href="https://gleyconxavier.github.io/smartbrain/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
+                    <a href="src/components/projects/index.tsx" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
                             <source srcSet={smartbrainWepb} type="image/webp"/>
                             <source srcSet={smartbrainPng} type="image/jpeg"/>
@@ -97,7 +96,7 @@ const Projects = () => {
 
                     <ScrollAnimation animateIn='fadeIn'
                         animateOut='fadeOut'>
-                    <a href="https://gleyconxavier.github.io/orcamento-pessoal/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
+                    <a href="src/components/projects/index.tsx" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
                             <source srcSet={orcpesWepb} type="image/webp"/>
                             <source srcSet={orcpesPng} type="image/jpeg"/>
@@ -116,7 +115,7 @@ const Projects = () => {
 
                                         <ScrollAnimation animateIn='fadeIn'
                             animateOut='fadeOut'>
-                    <a href="https://gleyconxavier.github.io/tindog/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
+                    <a href="src/components/projects/index.tsx" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
                             <source srcSet={tindogWepb} type="image/webp"/>
                             <source srcSet={tindogPng} type="image/jpeg"/>
@@ -136,7 +135,7 @@ const Projects = () => {
                     <ScrollAnimation animateIn='fadeIn'
                         animateOut='fadeOut'>
 
-                      <a href="https://gleyconxavier.github.io/teste-reacao/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
+                      <a href="src/components/projects/index.tsx" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                           <picture  className="db w-100">
                               <source srcSet={testereacaoWepb} type="image/webp"/>
                               <source srcSet={testereacaoPng} type="image/jpeg"/>
@@ -149,7 +148,7 @@ const Projects = () => {
                           </p>
                       </a>
 
-                    <a href="https://www.gleyconxavier.com/simon/" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
+                    <a href="src/components/projects/index.tsx" target="_blank" rel="noopener noreferrer" className="pv2 pointer grow db no-underline black">
                         <picture  className="db w-100">
                             <source srcSet={simonWepb} type="image/webp"/>
                             <source srcSet={simonPng} type="image/jpeg"/>

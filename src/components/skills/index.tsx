@@ -1,5 +1,4 @@
 import React from 'react';
-import ScrollAnimation from 'react-animate-on-scroll';
 import coding from './coding.svg';
 import './Skills.css';
 

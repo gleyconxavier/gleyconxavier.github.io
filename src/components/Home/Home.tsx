@@ -1,5 +1,5 @@
 import React from 'react';
-import emailSvg from "../Contact/email.svg";
+import emailSvg from "../../pages/contact/email.svg";
 import ScrollAnimation from 'react-animate-on-scroll';
 
 const Home = () => {

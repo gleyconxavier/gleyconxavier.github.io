@@ -2,6 +2,7 @@
 .iws
 workspace.xml
 tasks.xml
+.idea/
 
 # dependencies
 /node_modules

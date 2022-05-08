@@ -1,7 +1,7 @@
 {
-  "name": "gleyconxavier.github.io",
+  "name": "gleyconxavier.com",
   "version": "0.1.0",
-  "homepage": "https://gleyconxavier.github.io/",
+  "homepage": "https://gleyconxavier.com/",
   "private": true,
   "dependencies": {
     "@types/jest": "^27.5.0",
@@ -10,13 +10,11 @@
     "@types/react-dom": "^18.0.3",
     "gatsby": "^4.13.1",
     "react": "^18.1.0",
-    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^18.1.0",
     "react-icons": "^3.8.0",
     "react-particles-js": "^2.7.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
-    "tachyons": "^4.11.1",
     "typescript": "^4.6.4"
   },
   "scripts": {
