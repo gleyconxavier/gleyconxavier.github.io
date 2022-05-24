@@ -14,8 +14,7 @@ const About = () => {
             <article className="bg-white tc-ns pa3 pa5-ns br3 mb5">
                 <h3 className="f6 f4-l i">Long history short</h3>
                 
-                <div animateIn='bounceInLeft'
-                        animateOut='bounceOutRight'>
+                <div>
                     <section className="flex flex-wrap justify-around items-center">
                         <img src={startupSvg} className="mw7-ns w-50-ns" alt="Ilustração utilizando notebook"/>
                         
@@ -34,8 +33,7 @@ const About = () => {
                     </section>
                 </div>
 
-                <div animateIn='bounceInRight'
-                        animateOut='bounceOutLeft'>
+                <div>
                     <section className="flex flex-wrap flex-row-reverse justify-around items-center">
                         <img src={todoSvg} className="mw7-ns w-50-ns" alt="Ilustração lista de tarefas"/>
                         <div className="measure lh-copy w-50-ns f5-m f3-l">
@@ -49,8 +47,7 @@ const About = () => {
                     </section>
                 </div>
 
-                <div animateIn='bounceInLeft'
-                        animateOut='bounceOutRight'>
+                <div>
                     <section className="flex flex-wrap justify-around items-center">
                         <img src={gradSvg} className="mw7-ns w-50-ns" alt="Ilustração graduando"/>
                         <div className="measure lh-copy w-50-ns f5-m f3-l">

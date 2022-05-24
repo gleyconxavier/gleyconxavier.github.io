@@ -1,7 +1,7 @@
 import React from 'react';
 import emailSvg from './email.svg';
 
-const Index = () => {
+const Contact = () => {
     return (
 
         <div className="tc mt4 mt5-m mt6-l ph4 mw9-ns center">
@@ -12,8 +12,7 @@ const Index = () => {
             <article className="tc-ns pa3 pa5-ns br3 mb5 center">
                 <h3 className="f6 f4-l white-90 i">Let's talk :)</h3>
                 
-                <div animateIn='bounceInLeft'
-                        animateOut='bounceOutRight'>
+                <div>
                     <section className="flex flex-wrap justify-around items-center">
                         <img src={emailSvg} className="mw7-ns w-50-ns" alt="Ilustração utilizando notebook"/>
                         
@@ -45,4 +44,4 @@ const Index = () => {
     )
 }
 
-export default Index;
+export default Contact;
