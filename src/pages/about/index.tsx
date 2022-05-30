@@ -6,12 +6,12 @@ import gradSvg from './graduating.svg';
 const About = () => {
     return (
 
-        <div className="tc mt4 mt5-m mt6-l ph4 mw9-ns center">
+        <div className="neumorphic-pressed-in tc mt4 mt5-m mt6-l ph4 mw9-ns">
             
-            <h1 className="f1 animated flipInY fw2 white-90 pv1 bg-black-80 mb0 lh-title">Um pouco sobre <span className="white-50">mim</span></h1>
+            <h1 className="f1 animated flipInY fw2 white-90 pv bg-black-80 mb0 lh-title">Um pouco sobre <span className="white-50">mim</span></h1>
             <h2 className="fw1 animated flipInY f3 white-70 mt3 pv1 bg-black-80 mb4">Quem sou eu?</h2>
 
-            <article className="bg-white tc-ns pa3 pa5-ns br3 mb5">
+            <article className="tc-ns pa3 pa5-ns br3 mb5">
                 <h3 className="f6 f4-l i">Long history short</h3>
                 
                 <div>
